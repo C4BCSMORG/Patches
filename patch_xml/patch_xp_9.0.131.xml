@@ -7,7 +7,7 @@
       <file>AtlasCltExport.dll</file>
     </files>
     <description>DE Dieser Patch behebt das Problem, dass bei konfigurierten ausnahmen nicht die richtige Ansage abgespielt wurde.  EN This patch fixes the problem that the correct announcement was not played for configured exceptions. </description>
-    <downloadlink>https://github.com/C4BCSMORG/Patches/tree/main/V9.0.131/2022-11-29_TeamDesk_-_Sound_selection_for_incoming_call_exceptions_xphone_9.0.131.exe</downloadlink>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-11-29_TeamDesk_-_Sound_selection_for_incoming_call_exceptions_xphone_9.0.131.exe</downloadlink>
   </patch>
   <patch>
     <name>2022-11-30 Softphone - STUN-Server missing</name>
@@ -16,6 +16,6 @@
       <file>AtlasSrvExport.dll</file>
     </files>
     <description>DE Die Softphone-Clients bekommen vom Server keinen STUN-Server zur VerfÃ¼gung gestellt.  EN The softphone clients are not provided with a STUN server by the server. </description>
-    <downloadlink>https://github.com/C4BCSMORG/Patches/tree/main/V9.0.131/2022-11-30_Softphone_-_STUN-Server_missing_xphone_9.0.131.exe</downloadlink>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-11-30_Softphone_-_STUN-Server_missing_xphone_9.0.131.exe</downloadlink>
   </patch>
 </patches>
