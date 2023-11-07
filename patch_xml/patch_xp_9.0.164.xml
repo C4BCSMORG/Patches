@@ -3,18 +3,12 @@
 <patch>
     <name>2023-02-27 Softphone - wrong ringing state xphone</name>
     <version></version>
-    <files>
-      <file></file>
-    </files>
     <description>DE Dieser Patch behebt das Problem, dass das Softphone sich immer noch im Ringing-State befindet, obwohl das Gespräch schon angenommen wurde EN This patch fixes the problem that the softphone is still in the ringing state although the call has already been accepted.</description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/tree/main/V9.0.164/2023-02-27_Softphone_-_wrong_ringing_state_xphone_9.0.164.exe</downloadlink>
   </patch>
   <patch>
     <name>2023-04-06 Lizenzdarstellung auf V8 Verfahren aendern xphone</name>
     <version></version>
-    <files>
-      <file></file>
-    </files>
     <description>DE Dieser Patch sorgt dafür, dass die Visualisierung für die Lizenzen auf das Verfahren der V8 geändert wird. EN This patch ensures that the visualization for the licenses is changed to the V8 procedure.</description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/tree/main/V9.0.164/2023-04-06_Lizenzdarstellung_auf_V8_Verfahren_aendern_xphone_9.0.164.exe</downloadlink>
   </patch>
