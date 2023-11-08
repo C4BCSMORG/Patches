@@ -1,3 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
+    <patch>
+    <name>22023-07-19 XCC - XCC and SIP gateway restart behavior fix2 xphone</name>
+    <version></version>
+    <description>DE Dieser Patch - behebt das Problem (Alcatel OXE in combination with the AnyNode), dass die Anrufernummer nicht aktualisiert wurde, wenn der Team Desk Anrufer von einem PBX Telefon in die Team Desk Grupper vermittelt wurde. - beschleunigt das Neustartverhalten der XCC und SIP Gw PBX Objekte EN This patch - fixes the problem (Alcatel OXE in combination with the AnyNode) that the caller number was not updated when the Team Desk caller was transferred from a PBX phone to the Team Desk group. - accelerates the restart behaviour of the XCC and SIP Gw PBX objects.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-07-19_XCC_-_XCC_and_SIP_gateway_restart_behavior_fix2_xphone_9.0.229.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2023-08-17 UMSServices handle leak fix xphone</name>
+    <version></version>
+    <description>DE Fixt ein leak von thread und event handles in IVFax2Print und IVSMTPReceiver das durch den UMSCOMClient verursacht wird. EN Fixes a leak of trhead handles in IVFax2Print and IVSMTPReceiver caused by UMSCOMClient.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-08-17_UMSServices_handle_leak_fix_xphone_9.0.229.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2023-09-12 Telephony - PatchCollection xphone</name>
+    <version></version>
+    <description>DE Dieser Patch - behebt das Problem (Alcatel OXE in combination with the AnyNode), dass die Anrufernummer nicht aktualisiert wurde, wenn der Team Desk Anrufer von einem PBX Telefon in die Team Desk Grupper vermittelt wurde. - beschleunigt das Neustartverhalten der XCC und SIP Gw PBX Objekte. - dass der Warnhinweis bei RTP Port Änderung erhalten bleibt, bis der XCC Dienst neu gestartet wird. - dass bei einer Rückfrage wärend dem Rufaufbau zum zweiten Partner ein Transfer möglich war, was zu mehreren folge Problemen geführt hat. Neues Features: - Erweiterte Möglichkeiten für die Namensgebung der Benutzerleitungen (Bitte support kontaktieren). EN This patch - fixes the problem (Alcatel OXE in combination with the AnyNode) that the caller number was not updated when the Team Desk caller was transferred from a PBX phone to the Team Desk group. - accelerates the restart behaviour of the XCC and SIP Gw PBX objects. - that the RTP port change warning remains until the XCC service is restarted. - that a transfer was possible during a consultation call to the second partner, which led to several subsequent problems. New features: - Extended possibilities for the naming of user lines (Please contact support).</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-09-12_Telephony_-_PatchCollection_xphone_9.0.229.exe</downloadlink>
+  </patch>
 </patches>
