@@ -1,15 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
-<patch>
+  <patch>
+    <name>2023-01-26 Softphone - Signalling missed calls xphone</name>
+    <version></version>
+    <description>DE Dieser Patch behebt das Problem, verpasste Anrufe in bestimmten Situationen nicht im Journal erscheinen EN This patch fixes the problem of missed calls not appearing in the journal in certain situations.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-01-26_Softphone_-_Signalling_missed_calls_xphone_9.0.164</downloadlink>
+  </patch>
+  <patch>
+    <name>2023-02-21 XCC - Jitterbuffer disabled xphone</name>
+    <version></version>
+    <description>DE Deaktiviert die Jitterbuffer per Default EN Disables the jitter buffers by default</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-02-21_XCC_-_Jitterbuffer_disabled_xphone_9.0.164.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2023-02-27 Call pickup not possible xphone</name>
+    <version></version>
+    <description>DE Bei erstmaliger Ansicht eines Kontaktes (Teamleiste oder Kontaktliste) nach Start des Clients wird die Anrufübernahme für zu diesem Zeipunkt aktive Calls nicht angeboten. EN When viewing a contact (team bar or contact list) for the first time after starting the client, call pickup is not offered for calls active at that time. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-02-27_Call_pickup_not_possible_xphone_9.0.164.exe</downloadlink>
+  </patch>
+  <patch>
     <name>2023-02-27 Softphone - wrong ringing state xphone</name>
     <version></version>
     <description>DE Dieser Patch behebt das Problem, dass das Softphone sich immer noch im Ringing-State befindet, obwohl das Gespräch schon angenommen wurde EN This patch fixes the problem that the softphone is still in the ringing state although the call has already been accepted.</description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-02-27_Softphone_-_wrong_ringing_state_xphone_9.0.164.exe</downloadlink>
   </patch>
   <patch>
+    <name>2023-03-06 CallCenter - Add agent fix xphone</name>
+    <version></version>
+    <description>DE Dieser Patch behebt das Problem, dass sporadisch Agenten nicht angelegt, oder einem Wartefeld zugewiesen werden. EN This patch fixes the problem that sporadically agents are not created or assigned to a waiting field.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-03-06_CallCenter_-_Add_agent_fix_xphone_9.0.164.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2023-03-16 CallCenter - Missing analytics informations - fix xphone</name>
+    <version></version>
+    <description>DE Erforderliche Patches: - 2023-03-06 CallCenter - Add agent fix Dieser Patch behebt das Problem, dass manche Informationen in bestimmten Konstellationen nicht korrekt an Analytiks übertragen werden. EN Required patches: - 2023-03-06 CallCenter - Add agent fix. This patch fixes the problem that some information is not correctly transferred to Analytics in certain constellations.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-03-16_CallCenter_-_Missing_analytics_informations_-_fix_xphone_9.0.164.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2023-03-17 XCC - CNO Service Fix xphone</name>
+    <version></version>
+    <description>DE Dieser Patch behebt das Probmlem dass bei einer führende Null für das Amt, bei einem eingehenden Call in Richtung XCC diese nicht korrekt, gemäß der Konfiguration, entfernt wird. EN This patch fixes the problem that if there is a leading zero for the office, it is not removed correctly according to the configuration for an incoming call in the direction of XCC.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-03-17_XCC_-_CNO_Service_Fix_xphone_9.0.164.exe</downloadlink>
+  </patch>
+  <patch>
     <name>2023-04-06 Lizenzdarstellung auf V8 Verfahren aendern xphone</name>
     <version></version>
     <description>DE Dieser Patch sorgt dafür, dass die Visualisierung für die Lizenzen auf das Verfahren der V8 geändert wird. EN This patch ensures that the visualization for the licenses is changed to the V8 procedure.</description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-04-06_Lizenzdarstellung_auf_V8_Verfahren_aendern_xphone_9.0.164.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2023-05-15 AnyDevice - SIP-Diversion header fix for forwarding szenarios xphone</name>
+    <version></version>
+    <description>DE Dieser Patch behebt das Problem, dass bei einem "FWD Unconditional" ein invalider Diversion Header hinzugefügt wird. EN This patch fixes the problem that an invalid Diversion Header is added to a "FWD Unconditional".</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-05-15_AnyDevice_-_SIP-Diversion_header_fix_for_forwarding_szenarios_xphone_9.0.164.exe</downloadlink>
   </patch>
 </patches>
