@@ -4,7 +4,7 @@
     <name>2023-01-26 Softphone - Signalling missed calls xphone</name>
     <version></version>
     <description>DE Dieser Patch behebt das Problem, verpasste Anrufe in bestimmten Situationen nicht im Journal erscheinen EN This patch fixes the problem of missed calls not appearing in the journal in certain situations.</description>
-    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-01-26_Softphone_-_Signalling_missed_calls_xphone_9.0.164</downloadlink>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.164/2023-01-26_Softphone_-_Signalling_missed_calls_xphone_9.0.164.exe</downloadlink>
   </patch>
   <patch>
     <name>2023-02-21 XCC - Jitterbuffer disabled xphone</name>
