@@ -1,6 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
   <patch>
+    <name>2022-09-21 XCC - XPhone Server connection self-healing after network issues xphone</name>
+    <version></version>
+    <description>DE Dieser Patch behebt das Problem, dass der XPhone Server bei häufigen Netzwerkausfällen nicht mehr auf den TCP Socket vom Ausgelagerten XCC aufsetzen kann. EN This patch fixes the problem that the XPhone server can no longer connect to the TCP socket of the outsourced XCC in case of frequent network failures.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-09-21_XCC_-_XPhone_Server_connection_self-healing_after_network_issues_xphone_9.0.131.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2022-09-27 Softphone - Anruf erscheint nicht im Journal - fix xphone</name>
+    <version></version>
+    <description>DE Dieser Patch behebt das Problem, dass wenn ein Agent mit Softhone den Anruf via Blind Transfer weiter vermittelt, ein XCC internes Ziel keinen Journal-Eintrag erhält. EN This patch fixes the problem that when an agent with Softhone transfers the call via Blind Transfer, an XCC internal target does not receive a journal entry.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-09-27_Softphone_-_Anruf_erscheint_nicht_im_Journal_-_fix_xphone_9.0.131.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2022-10-11 CSTA - Agent ready after logon xphone</name>
+    <version></version>
+    <description>DE OpenScape 4000: Die Agentenameldung setzt den Zustand "ready" nicht automatisch. Das kann durch eine Sondereinstellung der Leitung aktiviert werden. Die OS4K liefert beim Versuch den Zustand des Agenten zu ändern einen Fehler zurück, obwohl die maximal einstellbare Verzögerung von 2s bereits verwendt wird. Der Patch ermöglicht eine einstellbare Verzögerung bis max. 10s. Sondereinstellung der Leitung: Maske 0xFF000 gibt die Verzögerung in der Einheit 100ms an. 0x64 * 100ms = 10000ms Name: DefaultAgentLoginState Wert: 0x64102 EN OpenScape 4000: The agent message does not automatically set the "ready" state. This can be activated by a special line setting. The OS4K returns an error when trying to change the state of the agent, although the maximum adjustable delay of 2s is already used. The patch allows an adjustable delay up to max. 10s. Special line setting: Mask 0xFF000 specifies the delay in 100ms units. 0x64 * 100ms = 10000ms Name: DefaultAgentLoginState Value: 0x64102</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-10-11_CSTA_-_Agent_ready_after_logon_xphone_9.0.131.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2022-10-12 Satelliten Erstverbindung Timeout und Logging xphone</name>
+    <version></version>
+    <description>DE Dieser Patch erhöht den Timeout bei der Erstverbindung von Satelliten in der Admin UI auf 30 Sekunden. Das Logging für Satelliten wurde erweitert, um herauszufinden, welcher Teil genau in den Timeout läuft. Satelliten im Zustand "unassigned" können jetzt über die Admin UI gelöscht werden. EN This patch increases the timeout on initial connection of the Admin UI to 30 seconds. The logging for satellites has been extended to find out which part exactly times out. Satellites in "unassigned" state can now be deleted via the Admin UI.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-10-12_Satelliten_Erstverbindung_Timeout_und_Logging_xphone_9.0.131.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2022-10-21 XCC - internal-external distinction for the AnyDevice forwarding xphone</name>
+    <version></version>
+    <description>DE Dieser Patch behebt das Problem, dass bei einer AnyDevice Rufumleitung immer an das Ziel für einen externen Anrufer weiter geleitet wird. EN This patch fixes the problem that with AnyDevice call forwarding is always forwarded to the destination for an external caller.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-10-21_XCC_-_internal-external_distinction_for_the_AnyDevice_forwarding_xphone_9.0.131.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2022-10-25 Softphone Only - Forwarding Journal Fix xphone</name>
+    <version></version>
+    <description>DE Dieser Patch sorgt bei Softphone Only Rufumleitung für die korrekte Anzeige im Journal EN This patch ensures the correct display in the journal for Softphone Only call forwarding</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-10-25_Softphone_Only_-_Forwarding_Journal_Fix_xphone_9.0.131.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2022-10-29 Extension for Integration Module xphone</name>
+    <version></version>
+    <description>DE Das Integrations-Modul wurde um eine zusätzliche Funktion erweitert, mit der man die Company-Note über die Schnittstelle von außen setzen kann. EN The integration module has been extended by an additional function with which one can set the company note via the interface from outside.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-10-29_Extension_for_Integration_Module_xphone_9.0.131.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2022-10-31 SoftphoneMobile - Signalisierung eingehender Anrufe xphone</name>
+    <version></version>
+    <description>DE Eingehende SoftphoneMobile-Anrufe werden sporadisch nicht signalisert. Ersetzt den Patch "2022-10-11 SoftphoneMobile - Signalisierung eingehender Anrufe" EN Incoming SoftphoneMobile calls are sporadically not signaled. Replace for patch "2022-10-11 SoftphoneMobile - Signalisierung eingehender Anrufe"</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-10-31_SoftphoneMobile_-_Signalisierung_eingehender_Anrufe_xphone_9.0.131.exe</downloadlink>
+  </patch>
+  <patch>
     <name>2022-11-29 TeamDesk - Sound selection for incoming call exceptions</name>
     <version>9.0.125.1139</version>
     <files>
