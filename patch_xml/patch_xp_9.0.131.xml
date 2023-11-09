@@ -10,7 +10,7 @@
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-11-29_TeamDesk_-_Sound_selection_for_incoming_call_exceptions_xphone_9.0.131.exe</downloadlink>
   </patch>
   <patch>
-    <name>2022-11-29 TeamDesk - Sound selection for incoming call exceptions</name>
+    <name>2022-11-29 Web API - Reconnect for gRPC events xphone</name>
     <version></version>
     <description>DE Dieser Patch behebt folgendes Problem: Beim Starten des App-Pools im IIS werden manchmal die gRPC Events vom XPhone Server nicht übertragen. EN This patch fixes the following problem: When starting the App Pool in IIS, sometimes the gRPC events from the XPhone server are not sent.</description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-11-29_Web_API_-_Reconnect_for_gRPC_events_xphone_9.0.131.exe</downloadlink>
