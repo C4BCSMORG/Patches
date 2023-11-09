@@ -7,6 +7,12 @@
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-07-19_XCC_-_XCC_and_SIP_gateway_restart_behavior_fix2_xphone_9.0.229.exe</downloadlink>
   </patch>
   <patch>
+    <name>2023-08-08 Mail2Fax versteht lange ISO Filenamen xphone</name>
+    <version></version>
+    <description>DE Mail2Fax kann jetzt mit Filenamen im SMTP Header umgehen, die folgendes Format haben: name*0*=utf-8''HM_%C3%84nderung001.pdf filename*0*=utf-8''HM_%C3%84nderung001.pdf; EN Mail2Fax can now handle filenames in the SMTP header that have the following format: name*0*=utf-8''HM_%C3%84nderung001.pdf filename*0*=utf-8''HM_%C3%84nderung001.pdf;</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-08-08_Mail2Fax_versteht_lange_ISO_Filenamen_xphone_9.0.229.exe</downloadlink>
+  </patch>
+  <patch>
     <name>2023-08-17 UMSServices handle leak fix xphone</name>
     <version></version>
     <description>DE Fixt ein leak von thread und event handles in IVFax2Print und IVSMTPReceiver das durch den UMSCOMClient verursacht wird. EN Fixes a leak of trhead handles in IVFax2Print and IVSMTPReceiver caused by UMSCOMClient.</description>
