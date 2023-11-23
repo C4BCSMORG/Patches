@@ -24,16 +24,4 @@
     <description>DE Dieser Patch behebt das Problem, dass bei einer Rückfrage wärend dem Rufaufbau zum zweiten Partner ein Transfer möglich war, was zu mehreren folge Problemen geführt hat. EN This patch fixes the problem that a transfer was possible during a consultation call to the second partner, which led to several subsequent problems.</description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-09-08_Softphone_-_consultation_transfer_fix_xphone_9.0.229.exe</downloadlink>
   </patch>
-  <patch>
-    <name>2023-09-12 Telephony - PatchCollection xphone</name>
-    <version></version>
-    <description>DE Dieser Patch - behebt das Problem (Alcatel OXE in combination with the AnyNode), dass die Anrufernummer nicht aktualisiert wurde, wenn der Team Desk Anrufer von einem PBX Telefon in die Team Desk Grupper vermittelt wurde. - beschleunigt das Neustartverhalten der XCC und SIP Gw PBX Objekte. - dass der Warnhinweis bei RTP Port Änderung erhalten bleibt, bis der XCC Dienst neu gestartet wird. - dass bei einer Rückfrage wärend dem Rufaufbau zum zweiten Partner ein Transfer möglich war, was zu mehreren folge Problemen geführt hat. Neues Features: - Erweiterte Möglichkeiten für die Namensgebung der Benutzerleitungen (Bitte support kontaktieren). EN This patch - fixes the problem (Alcatel OXE in combination with the AnyNode) that the caller number was not updated when the Team Desk caller was transferred from a PBX phone to the Team Desk group. - accelerates the restart behaviour of the XCC and SIP Gw PBX objects. - that the RTP port change warning remains until the XCC service is restarted. - that a transfer was possible during a consultation call to the second partner, which led to several subsequent problems. New features: - Extended possibilities for the naming of user lines (Please contact support).</description>
-    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-09-12_Telephony_-_PatchCollection_xphone_9.0.229.exe</downloadlink>
-  </patch>
-  <patch>
-    <name>2023-09-14 ScheduledCollection- Announcement fix for exclutions xphone</name>
-    <version></version>
-    <description>DE Dieser Patch behebt das Problem, dass bei mehrtätigen Ausnahmen nicht die konfigurierte Ansage der Ausnahme abgespielt wird. EN This patch fixes the problem that for multi-day exceptions the configured announcement of the exception is not played.</description>
-    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-09-14_ScheduledCollection_-_Announcement_fix_for_exclutions_xphone_9.0.229.exe</downloadlink>
-  </patch>
 </patches>
