@@ -1,4 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
-
+  <patch>
+    <name>2023-12-07 ServerManager - SupportInfoCollector Fix</name>
+    <version>9.0.240.1272</version>
+    <files>
+      <file>ServerMng.exe</file>
+      <file>SupportInfoCollector.conf.xml</file>
+    </files>
+    <description>DE Dieser Patch behebt das Problem, dass der SupportInfoCollector nicht an seine Konfiguration kommt, wenn dieser durch den Server Manager gestartet wird.  EN This patch fixes the problem that the SupportInfoCollector does not get its configuration when it is started by the Server Manager. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2023-12-07_ServerManager_-_SupportInfoCollector_Fix_xphone_9.0.271.exe</downloadlink>
+  </patch>
 </patches>
