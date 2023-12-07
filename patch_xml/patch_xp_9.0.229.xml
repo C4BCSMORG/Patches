@@ -36,4 +36,24 @@
     <description>DE Dieser Patch behebt das Problem, dass bei mehrtätigen Ausnahmen nicht die konfigurierte Ansage der Ausnahme abgespielt wird. EN This patch fixes the problem that for multi-day exceptions the configured announcement of the exception is not played.</description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-09-14_ScheduledCollection_-_Announcement_fix_for_exclutions_xphone_9.0.229.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2023-12-06 TAPI - Innovaphone Nachwahl verhindern</name>
+    <version>9.0.200.1238</version>
+    <files>
+      <file>Tapi2Tel.dll</file>
+      <file>Tapi2Tel.dll</file>
+    </files>
+    <description>DE TAPI-Anschaltung: Aufgrund der speziellen Signalisierung von Innovaphone und einer nicht nÃ¤her untersuchten Vorgehensweise der Benutzer bei der Bedienung des Clients wurden sporadisch die TAPI-Funktionen lineMakeCall und lineDial in kurzem Abstand mit gleicher Rufnummer ausgefÃ¼hrt. Diese Nachwahl kann bei Innovaphone Probleme beim speziellen Call oder sogar im Pbx-System auslÃ¶sen. Der Patch verhindert die AusfÃ¼hrung der TAPI-Funktion lineDial in diesem Fall.   EN TAPI connection: Due to Innovaphone's special signaling and an uninvestigated user procedure when operating the client, the TAPI functions lineMakeCall and lineDial were sporadically executed at short intervals with the same call number. This post-dialing can cause problems with Innovaphone for special calls or even in the Pbx system. The patch prevents the execution of the TAPI function lineDial in this case.  </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-12-06_TAPI_-_Innovaphone_Nachwahl_verhindern_xphone_9.0.229.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2023-12-07 ServerManager - SupportInfoCollector Fix</name>
+    <version>9.0.200.1245</version>
+    <files>
+      <file>ServerMng.exe</file>
+      <file>SupportInfoCollector.conf.xml</file>
+    </files>
+    <description>DE Dieser Patch behebt das Problem, dass der SupportInfoCollector nicht an seine Konfiguration kommt, wenn dieser durch den Server Manager gestartet wird.  EN This patch fixes the problem that the SupportInfoCollector does not get its configuration when it is started by the Server Manager. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.229/2023-12-07_ServerManager_-_SupportInfoCollector_Fix_xphone_9.0.229.exe</downloadlink>
+  </patch>
 </patches>
