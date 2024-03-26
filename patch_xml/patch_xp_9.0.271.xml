@@ -10,4 +10,79 @@
     <description>DE Dieser Patch behebt das Problem, dass der SupportInfoCollector nicht an seine Konfiguration kommt, wenn dieser durch den Server Manager gestartet wird.  EN This patch fixes the problem that the SupportInfoCollector does not get its configuration when it is started by the Server Manager. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2023-12-07_ServerManager_-_SupportInfoCollector_Fix_xphone_9.0.271.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2024-02-21 Sammelpatch2</name>
+    <version>9.0.240.1276</version>
+    <files>
+      <file>BroadsoftPbx.dll</file>
+      <file>CallCenterModule.dll</file>
+      <file>DialParamMng.exe</file>
+      <file>DirectoryConnectorSrvExport.dll</file>
+      <file>DirectoryConnectorTXT.dll</file>
+      <file>FreeSwitch.EventSocket.dll</file>
+      <file>FreeSwitchPbxLib.dll</file>
+      <file>FsSipPbx.dll</file>
+      <file>InnovaphonePbx.dll</file>
+      <file>PbxLib.dll</file>
+      <file>SipB2Bua.dll</file>
+      <file>TelephonyConfig.dll</file>
+      <file>TelephonyModule.dll</file>
+      <file>TelephonySrvExport.dll</file>
+      <file>UserPresenceModule.dll</file>
+      <file>UserPresenceSrvExport.dll</file>
+      <file>AtlasCltExport.dll</file>
+      <file>C4B.XPhone.Model.dll</file>
+      <file>ClientConfigCltExport.dll</file>
+      <file>TelephonyCltExport.dll</file>
+      <file>TelephonySoftphone.dll</file>
+      <file>CstaTel.dll</file>
+      <file>TelHelper.dll</file>
+      <file>CstaTel.dll</file>
+      <file>TelHelper.dll</file>
+    </files>
+    <description>DE Innovaphone PBX Ã¼ber SOAP (BETA) Benutzerprofile bei ACD-Anmeldung optional anpassen Deutschland LAN (Ãbermittlung von Anzeigenamen verhindern) Weitere Fixes und Erweiterungen vorhergehender Patches  EN Innovaphone PBX via SOAP (BETA) Optional customization of user profiles for ACD login </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-02-21_Sammelpatch2_xphone_9.0.271.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2024-03-07 TeamDesk and Softphone journal fix</name>
+    <version>9.0.240.1277</version>
+    <files>
+      <file>FreeSwitch.EventSocket.dll</file>
+      <file>FreeSwitchPbxLib.dll</file>
+      <file>FsSipPbx.dll</file>
+    </files>
+    <description>DE Voraussetzung: - 2024-02-21 Sammelpatch2  Dieser Patch behebt das Problem:  - Dass die Journal Einstellung fÃ¼r eine Team Desk Gruppe ignoriert wird.   Die Ursache ist, wenn im SIP ToHeader von der PBX zu dem Wartefeld nur die Extension Ã¼bertragen wird.   Es muss bei den "Erweiterten Einstellung" fÃ¼r das SIP Gateway fÃ¼r "XccForceRedirectNoToE162" der Wert "TRUE" gesetzt werden.  - Dass bei verpassten SIP Gw Ã¼bergreifenden Softphone Anrufen kein Journal Eintrag geschrieben wird.  EN Prerequisite: - 2024-02-21 Sammelpatch2  This patch fixes the problem:  - That the journal setting for a Team Desk group is ignored.   The cause is when only the extension is transmitted in the SIP ToHeader from the PBX to the waiting field.   The value "TRUE" must be set for "XccForceRedirectNoToE162" in the "Advanced settings" for the SIP gateway.  - That no journal entry is written for missed cross-SIP Gw softphone calls.  </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-03-07_TeamDesk_and_Softphone_journal_fix_xphone_9.0.271.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2024-03-08 AnyDevice - Double signalling for calls fixed</name>
+    <version>9.0.240.1279</version>
+    <files>
+      <file>FreeSwitch.EventSocket.dll</file>
+      <file>FreeSwitchPbxLib.dll</file>
+      <file>FsSipPbx.dll</file>
+    </files>
+    <description>DE Voraussetzung: - 2024-02-21 Sammelpatch2 - 2024-03-07 TeamDesk and Softphone journal fix  Dieser Patch behebt das Problem, dass Softphone / AnyDevice Anrufe doppelt signalisiert werden.  EN Prerequisite: - 2024-02-21 Sammelpatch2 - 2024-03-07 TeamDesk and Softphone journal fix  This patch fixes the problem that Softphone / AnyDevice calls are signaled twice. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-03-08_AnyDevice_-_Double_signalling_for_calls_fixed_xphone_9.0.271.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2024-03-08 AnyDevice - Remove line or user fix</name>
+    <version>9.0.240.1278</version>
+    <files>
+      <file>Linux\SatelliteBridge\freeswitch-xcc-core.deb</file>
+      <file>Linux\SatelliteBridge\freeswitch-xcc-core.deb.info</file>
+      <file>XCC\mod\managedcore\mod_managedC4B_Core.dll</file>
+    </files>
+    <description>DE Voraussetzung - 2024-02-21 Sammelpatch2  Dieser Patch behebt das Problem, dass nach dem lÃ¶schen einer AnyDevice Leitung dei Leitungseinstellungen am XCC erhalten bleiben und somit z.B. eine unerwÃ¼nschte Rufweiterleitung bestehen bleibt.  EN Prerequisite: - 2024-02-21 Sammelpatch2  This patch fixes the problem that after deleting an AnyDevice line, the line settings on the XCC are retained and thus, for example, unwanted call forwarding remains. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-03-08_AnyDevice_-_Remove_line_or_user_fix_xphone_9.0.271.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2024-03-19 TeamDesk - Redirecting ID Fix</name>
+    <version>9.0.240.1280</version>
+    <files>
+      <file>FsSipPbx.dll</file>
+    </files>
+    <description>DE Voraussetzung: - 2024-02-21_Sammelpatch2_xphone_9.0.271 - 2024-03-07_TeamDesk_and_Softphone_journal_fix_xphone_9.0.271 - 2024-03-08_AnyDevice_-_Double_signalling_for_calls_fixed_xphone_9.0.271  Dieser Patch behebt das Problem, dass der Agent einen falschen Journal Eintrag bekommt, wenn der Anruf via Rufweiterleitung in das Wartefeld gelangt. Dazu muss bei dem entsprechenden SIP Gateway in den "Erweiterten Einstellungen" fÃ¼r "CallCenterUseStaticDiversion" "TRUE" gesetzt werden.  EN Requirements: - 2024-02-21_Sammelpatch2_xphone_9.0.271 - 2024-03-07_TeamDesk_and_Softphone_journal_fix_xphone_9.0.271 - 2024-03-08_AnyDevice_-_Double_signalling_for_calls_fixed_xphone_9.0.271  This patch fixes the problem that the agent receives an incorrect journal entry when the call reaches the waiting field via call forwarding. To do this, "TRUE" must be set for "CallCenterUseStaticDiversion" in the "Advanced settings" for the corresponding SIP gateway. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-03-19_TeamDesk_-_Redirecting_ID_Fix_xphone_9.0.271.exe</downloadlink>
+  </patch>
 </patches>
