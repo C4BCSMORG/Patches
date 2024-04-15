@@ -85,4 +85,13 @@
     <description>DE Voraussetzung: - 2024-02-21_Sammelpatch2_xphone_9.0.271 - 2024-03-07_TeamDesk_and_Softphone_journal_fix_xphone_9.0.271 - 2024-03-08_AnyDevice_-_Double_signalling_for_calls_fixed_xphone_9.0.271  Dieser Patch behebt das Problem, dass der Agent einen falschen Journal Eintrag bekommt, wenn der Anruf via Rufweiterleitung in das Wartefeld gelangt. Dazu muss bei dem entsprechenden SIP Gateway in den "Erweiterten Einstellungen" fÃ¼r "CallCenterUseStaticDiversion" "TRUE" gesetzt werden.  EN Requirements: - 2024-02-21_Sammelpatch2_xphone_9.0.271 - 2024-03-07_TeamDesk_and_Softphone_journal_fix_xphone_9.0.271 - 2024-03-08_AnyDevice_-_Double_signalling_for_calls_fixed_xphone_9.0.271  This patch fixes the problem that the agent receives an incorrect journal entry when the call reaches the waiting field via call forwarding. To do this, "TRUE" must be set for "CallCenterUseStaticDiversion" in the "Advanced settings" for the corresponding SIP gateway. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-03-19_TeamDesk_-_Redirecting_ID_Fix_xphone_9.0.271.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2024-04-12 System Info Collector - fix</name>
+    <version>9.0.240.1281</version>
+    <files>
+      <file>SupportInfoCollector.exe</file>
+    </files>
+    <description>DE Voraussetzungen: - 2023-12-07 ServerManager - SupportInfoCollector Fix  Dieser Patch behebt das Problem, dass der System Info Collector nicht richtig funktioniert, wenn dieser Ã¼ber den Server Manager gestartet wird.  EN Requirements: - 2023-12-07 ServerManager - SupportInfoCollector Fix  This patch fixes the problem that the System Info Collector does not work properly when it is started via the Server Manager. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-04-12_System_Info_Collector_-_fix_xphone_9.0.271.exe</downloadlink>
+  </patch>
 </patches>
