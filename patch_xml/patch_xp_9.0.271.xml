@@ -94,4 +94,33 @@
     <description>DE Voraussetzungen: - 2023-12-07 ServerManager - SupportInfoCollector Fix  Dieser Patch behebt das Problem, dass der System Info Collector nicht richtig funktioniert, wenn dieser Ã¼ber den Server Manager gestartet wird.  EN Requirements: - 2023-12-07 ServerManager - SupportInfoCollector Fix  This patch fixes the problem that the System Info Collector does not work properly when it is started via the Server Manager. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-04-12_System_Info_Collector_-_fix_xphone_9.0.271.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2024-04-23 Analytics negative Timezone Offsets</name>
+    <version>9.0.240.1283</version>
+    <files>
+      <file>WebStats\bin\StatsWebClient.dll</file>
+    </files>
+    <description>DE Dieser Patch behebt das Problem, dass Analytics bei einem negativen Timezone Offset nicht richtig funktioniert.  EN This patch fixes the problem that Analytics does not work properly with a negative timezone offset. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-04-23_Analytics_negative_Timezone_Offsets_xphone_9.0.271.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2024-04-25 AnyDevice - own number is displayed - fix</name>
+    <version>9.0.240.1283</version>
+    <files>
+      <file>FsSipPbx.dll</file>
+    </files>
+    <description>DE Vorraussetzung: Alle offiziellen Patches fÃ¼r die v9.0.271 mÃ¼ssen installiert sein.  Dieser Patch behebt das Problem, dass ein AnyDevice Benutzer bei eingehenden Anrufen seine eigene Nummer sieht.  EN Prerequisite: All official patches for v9.0.271 must be installed.  This patch fixes the problem that an AnyDevice user sees his own number for incoming calls. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-04-25_AnyDevice_-_own_number_is_displayed_-_fix_xphone_9.0.271.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2024-04-26 AnyDevice - forwarding - missing call signalling fixed</name>
+    <version>9.0.240.1284</version>
+    <files>
+      <file>Linux\SatelliteBridge\freeswitch-xcc-core.deb</file>
+      <file>Linux\SatelliteBridge\freeswitch-xcc-core.deb.info</file>
+      <file>XCC\mod\managedcore\mod_managedC4B_Core.dll</file>
+    </files>
+    <description>DE Voraussetzung: Alle offiziellen Patches mÃ¼ssen installiert sein.  Dieser Patch behebt das Problem, dass Anrufe im Client nicht signalisiert werden, wenn eine AnyDevice Teilnehmer eine Rufumleitung auf einen AnyDevice Teilnehmer konfiguriert hat.  EN Prerequisite: All official patches must be installed.  This patch fixes the problem that calls are not signaled in the client if an AnyDevice subscriber has configured call forwarding to another AnyDevice subscriber. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-04-26_AnyDevice_-_forwarding_-_missing_call_signalling_fixed_xphone_9.0.271.exe</downloadlink>
+  </patch>
 </patches>
