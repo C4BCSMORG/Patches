@@ -86,6 +86,16 @@
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-03-19_TeamDesk_-_Redirecting_ID_Fix_xphone_9.0.271.exe</downloadlink>
   </patch>
   <patch>
+    <name>2024-03-25 CSTA_-_OXE-SSH</name>
+    <version>9.0.240.1280</version>
+    <files>
+      <file>CstaTel.dll</file>
+      <file>CstaTel.dll</file>
+    </files>
+    <description>DE CSTA/OXE: SSH-Verbindung nicht mÃ¶glich.  Voraussetzung: Sammelpatch 2  EN CSTA/OXE: SSH connection not possible.  </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-03-25_CSTA_-_OXE-SSH_xphone_9.0.271.exe</downloadlink>
+  </patch>
+  <patch>
     <name>2024-04-12 System Info Collector - fix</name>
     <version>9.0.240.1281</version>
     <files>
