@@ -133,4 +133,14 @@
     <description>DE Voraussetzung: Alle offiziellen Patches mÃ¼ssen installiert sein.  Dieser Patch behebt das Problem, dass Anrufe im Client nicht signalisiert werden, wenn eine AnyDevice Teilnehmer eine Rufumleitung auf einen AnyDevice Teilnehmer konfiguriert hat.  EN Prerequisite: All official patches must be installed.  This patch fixes the problem that calls are not signaled in the client if an AnyDevice subscriber has configured call forwarding to another AnyDevice subscriber. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-04-26_AnyDevice_-_forwarding_-_missing_call_signalling_fixed_xphone_9.0.271.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2024-06-19 CSTA OXE-SSH</name>
+    <version>9.0.240.1283</version>
+    <files>
+      <file>CstaTel.dll</file>
+      <file>CstaTel.dll</file>
+    </files>
+    <description>DE CSTA: SSH-Verbindung nicht mÃ¶glich (wird z.B. benÃ¶tigt fÃ¼r Forwarding bei Alcatel OXE)  EN CSTA: SSH connection not possible (e.g. required for forwarding with Alcatel OXE) </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.271/2024-06-19_CSTA_OXE-SSH_xphone_9.0.271.exe</downloadlink>
+  </patch>
 </patches>
