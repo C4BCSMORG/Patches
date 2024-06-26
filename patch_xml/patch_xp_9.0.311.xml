@@ -10,4 +10,15 @@
         <description>DE CSTA: SSH-Verbindung nicht mÃ¶glich (wird z.B. benÃ¶tigt fÃ¼r Forwarding bei Alcatel OXE)  EN CSTA: SSH connection not possible (e.g. required for forwarding with Alcatel OXE) </description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-06-19_CSTA_OXE-SSH_xphone_9.0.311.exe</downloadlink>
     </patch>
+    <patch>
+    <name>2024-06-17 InnovaphoneMigration</name>
+    <version>9.0.300.1312</version>
+    <files>
+      <file>InnovaphonePbx.dll</file>
+      <file>TelephonyConfig.dll</file>
+      <file>TelephonyModule.dll</file>
+    </files>
+    <description>DE Innovaphone PBX (Direkte Anbindung ohne TAPI) - Optimierung fÃ¼r Single-Line-Mode - Erweiterte MÃ¶glichkeiten fÃ¼r Migration TAPI -&gt; Direkte Anbindung  EN Innovaphone PBX (direct connection without TAPI) - Optimization for single-line mode - Extended options for migration TAPI -&gt; direct connection </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-06-17_InnovaphoneMigration_xphone_9.0.311.exe</downloadlink>
+  </patch>
 </patches>
