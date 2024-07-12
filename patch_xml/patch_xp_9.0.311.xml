@@ -21,4 +21,35 @@
     <description>DE Innovaphone PBX (Direkte Anbindung ohne TAPI) - Optimierung fÃ¼r Single-Line-Mode - Erweiterte MÃ¶glichkeiten fÃ¼r Migration TAPI -&gt; Direkte Anbindung  EN Innovaphone PBX (direct connection without TAPI) - Optimization for single-line mode - Extended options for migration TAPI -&gt; direct connection </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-06-17_InnovaphoneMigration_xphone_9.0.311.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2024-07-11 Ausgabe des SPN für WCF im Eventlog</name>
+    <version>9.0.300.1317</version>
+    <files>
+      <file>ClientConnectorModule.dll</file>
+    </files>
+    <description>DE Mit diesem Pach wird der SPN, welcher bei der WCF Kommunikation verwendet wird, im Eventlog ausgegen. Damit die integrierte Windowsanmeldung per Kerberos funktioniert, muss dieser SPN so im Active Directory registriert werden und am Client muss als Servername genau der im SPN enthaltene verwendet werden.  EN This pach is used to output the SPN used for WCF communication in the event log. In order for the integrated Windows login via Kerberos to work, this SPN must be registered in the Active Directory and the exact server name contained in the SPN must be used on the client. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-07-11_Ausgabe_des_SPN_fuer_WCF_im_Eventlog_xphone_9.0.311.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2024-07-12 Using proxy settings in Android Pushes</name>
+    <version>3.0.0.0</version>
+    <files>
+      <file>PushProxy\FirebaseAdmin.dll</file>
+      <file>PushProxy\Google.Api.Gax.dll</file>
+      <file>PushProxy\Google.Api.Gax.Rest.dll</file>
+      <file>PushProxy\Google.Apis.Auth.dll</file>
+      <file>PushProxy\Google.Apis.Core.dll</file>
+      <file>PushProxy\Google.Apis.dll</file>
+      <file>PushProxy\Microsoft.Bcl.AsyncInterfaces.dll</file>
+      <file>PushProxy\Newtonsoft.Json.dll</file>
+      <file>PushProxy\PushNotificationsProxy.deps.json</file>
+      <file>PushProxy\PushNotificationsProxy.dll</file>
+      <file>PushProxy\PushNotificationsProxy.exe</file>
+      <file>PushProxy\System.CodeDom.dll</file>
+      <file>PushProxy\System.Collections.Immutable.dll</file>
+      <file>PushProxy\System.Management.dll</file>
+    </files>
+    <description>DE Pushes Notification in Android verwenden nun proxy settings in Admin OberflÃ¤che  EN Pushes notification in android can use proxy settings in admin ui. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-07-12_Using_proxy_settings_in_Android_Pushes_xphone_9.0.311.exe</downloadlink>
+  </patch>
 </patches>
