@@ -1,25 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
-    <patch>
-        <name>2024-06-19 CSTA OXE-SSH</name>
-        <version>9.0.300.1312</version>
-        <files>
-            <file>CstaTel.dll</file>
-            <file>CstaTel.dll</file>
-        </files>
-        <description>DE CSTA: SSH-Verbindung nicht mÃ¶glich (wird z.B. benÃ¶tigt fÃ¼r Forwarding bei Alcatel OXE)  EN CSTA: SSH connection not possible (e.g. required for forwarding with Alcatel OXE) </description>
-        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-06-19_CSTA_OXE-SSH_xphone_9.0.311.exe</downloadlink>
-    </patch>
-    <patch>
-    <name>2024-06-17 InnovaphoneMigration</name>
-    <version>9.0.300.1312</version>
+<patch>
+    <name>2024-06-25 TeamDesk - announcement after exclusion - fix</name>
+    <version>9.0.300.1314</version>
     <files>
+      <file>AtlasCltExport.dll</file>
+    </files>
+    <description>DE Dieser Patch behebt das Problem, dass nach der Abwesenheit und vor der nÃ¤chsten Ãffnungszeit immer noch die Ansage der Abwesenheit kommt.  EN This patch fixes the problem that the exclusion is still announced after the exclusion and before the next opening time. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-06-25_TeamDesk_-_announcement_after_exclusion_-_fix_xphone_9.0.311.exe</downloadlink>
+  </patch>
+    <patch>
+    <name>2024-07-08 Telefonie Sammelpatch</name>
+    <version>9.0.300.1317</version>
+    <files>
+      <file>DirectoryConnectorSrvExport.dll</file>
+      <file>FreeSwitchPbxLib.dll</file>
+      <file>FsSipPbx.dll</file>
       <file>InnovaphonePbx.dll</file>
       <file>TelephonyConfig.dll</file>
       <file>TelephonyModule.dll</file>
+      <file>TelephonySrvExport.dll</file>
+      <file>TelephonyCltExport.dll</file>
+      <file>CstaTel.dll</file>
+      <file>CstaTel.dll</file>
     </files>
-    <description>DE Innovaphone PBX (Direkte Anbindung ohne TAPI) - Optimierung fÃ¼r Single-Line-Mode - Erweiterte MÃ¶glichkeiten fÃ¼r Migration TAPI -&gt; Direkte Anbindung  EN Innovaphone PBX (direct connection without TAPI) - Optimization for single-line mode - Extended options for migration TAPI -&gt; direct connection </description>
-    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-06-17_InnovaphoneMigration_xphone_9.0.311.exe</downloadlink>
+    <description>DE 1. XCC Satellite: Dieser Patch behebt das Problem: - Dass sporadisch, mit zu strengen Firewall-Regeln ein, oder mehrere SIP Gateways ausgesperrt wurden.         Das Problem trat bis jetzt nur bei Server-Neustarts auf.          Ein Deaktivieren und Aktivieren der betroffenen SIP Gateways hat den Fehlerzustand behoben.  - Dass bei einem XP Server Neustart die Firewall Regeln fÃ¼r den Satellite sporadisch nicht geschrieben werden. - Dass wenn XccUseLocalIpAsFromDomain auf TRUE gesetzt ist, die From Domain des XP Server verwendet wird.   2. Innovaphone: - Optimierung fÃ¼r Single-Line-Mode - Erweiterte MÃ¶glichkeiten fÃ¼r Migration TAPI -&gt; Direkte Anbindung - Korrektur-Mechanisumus fÃ¼r mehrfach identische Anrufumleitungen - Eingehende Anrufe bei mehreren GerÃ¤ten erscheinen im Journal doppelt  3. CSTA: - SSH-Verbindung nicht mÃ¶glich (wird z.B. benÃ¶tigt fÃ¼r Forwarding bei Alcatel OXE)  4. Konnektoren: - Erweiterte MÃ¶glichkeiten beim Verschieben von Benutzern und LÃ¶schen von Leitungen  EN 1. XCC Satellite - That one or more SIP gateways were sporadically locked out with firewall rules that were too strict.        Until now, the problem only occurred when the server was restarted.         Deactivating and activating the affected SIP gateways fixed the error.  - That the firewall rules for the satellite are sporadically not written when the XP server is restarted. - That if XccUseLocalIpAsFromDomain is set to TRUE, the From Domain of the XP Server is used.   2. Innovaphone: - Optimization for single-line mode - Extended options for migration TAPI -&gt; direct connection - Correction mechanism for multiple identical call forwardings - Incoming calls to multiple devices appear twice in the journal  3. CSTA: - SSH connection not possible (e.g. required for forwarding with Alcatel OXE)  4. Connectors: - Extended options for moving users and deleting lines </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-07-08_Telefonie_Sammelpatch_xphone_9.0.311.exe</downloadlink>
   </patch>
   <patch>
     <name>2024-07-11 Ausgabe des SPN für WCF im Eventlog</name>
@@ -51,5 +57,12 @@
     </files>
     <description>DE Pushes Notification in Android verwenden nun proxy settings in Admin OberflÃ¤che  EN Pushes notification in android can use proxy settings in admin ui. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-07-12_Using_proxy_settings_in_Android_Pushes_xphone_9.0.311.exe</downloadlink>
+  </patch>  
+  <patch>
+    <name>2024-07-22 Powershell connector function performance</name>
+    <version>9.0.300.1318</version>
+    <files />
+    <description>DE Patch um die Performanz der Get-XpConnectors und Set-XpConnectors Funktionen fÃ¼r einzelne Konnektoren zu verbessern. Beispiele: $x = Get-XpConnectors "ConnectorName" Set-XpConnectors $x  EN Patch to improve the performance of the Get-XpConnectors and Set-XpConnectors functions for individual connectors. Examples: $x = Get-XpConnectors âConnectorNameâ Set-XpConnectors $x </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-07-22_Powershell_connector_function_performance_xphone_9.0.311.exe</downloadlink>
   </patch>
 </patches>
