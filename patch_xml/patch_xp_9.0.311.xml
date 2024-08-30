@@ -65,4 +65,13 @@
     <description>DE Patch um die Performanz der Get-XpConnectors und Set-XpConnectors Funktionen fÃ¼r einzelne Konnektoren zu verbessern. Beispiele: $x = Get-XpConnectors "ConnectorName" Set-XpConnectors $x  EN Patch to improve the performance of the Get-XpConnectors and Set-XpConnectors functions for individual connectors. Examples: $x = Get-XpConnectors âConnectorNameâ Set-XpConnectors $x </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-07-22_Powershell_connector_function_performance_xphone_9.0.311.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2024-08-02 Softphone - MoH after blind transfer - fixed</name>
+    <version>9.0.300.1318</version>
+    <files>
+      <file>FsSipPbx.dll</file>
+    </files>
+    <description>DE Voraussetzung:  - 2024-07-08 Telefonie Sammelpatch  Dieser Patch behebt das Problem, dass wenn der Partner vor einem Blind Transfer ins Halten gelegt wurde, dieser auch nach dem Blind Transfer immer noch die Halten-Musik hÃ¶rt.  EN Prerequisite:  - 2024-07-08 Telefonie Sammelpatch   This patch fixes the problem that if the partner was put on hold before a blind transfer, the partner still hears the hold music after the blind transfer. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-08-02_Softphone_-_MoH_after_blind_transfer_-_fixed_xphone_9.0.311.exe</downloadlink>
+  </patch>
 </patches>
