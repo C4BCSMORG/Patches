@@ -74,4 +74,45 @@
     <description>DE Voraussetzung:  - 2024-07-08 Telefonie Sammelpatch  Dieser Patch behebt das Problem, dass wenn der Partner vor einem Blind Transfer ins Halten gelegt wurde, dieser auch nach dem Blind Transfer immer noch die Halten-Musik hÃ¶rt.  EN Prerequisite:  - 2024-07-08 Telefonie Sammelpatch   This patch fixes the problem that if the partner was put on hold before a blind transfer, the partner still hears the hold music after the blind transfer. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-08-02_Softphone_-_MoH_after_blind_transfer_-_fixed_xphone_9.0.311.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2024-08-28 Konnektor - Pbx-Reihenfolge bei Leitungserzeugung</name>
+    <version>9.0.300.1320</version>
+    <files>
+      <file>TelephonyConfig.dll</file>
+    </files>
+    <description>DE Ãber den Sonderparameter beim Pbx "CreateLineSort" mit entsprechemdem "Sortstring" kann die Pbx-Reihenfolge bei Leitungserzeugung Ã¼berschrieben werden. FÃ¼r Details bitte an den Support werden.   EN The Pbx sequence can be overwritten during line creation using the special parameter for Pbx âCreateLineSortâ with the corresponding âSortstringâ. Please contact support for details.  </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-08-28_Konnektor_-_Pbx-Reihenfolge_bei_Leitungserzeugung_xphone_9.0.311.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2024-08-28 Konnektor - Scheduler Einstellungen in atlas.xml</name>
+    <version>9.0.300.313</version>
+    <files>
+      <file>DirectoryConnectorAD.dll</file>
+      <file>DirectoryConnectorSrvExport.dll</file>
+      <file>DirectoryConnectorTXT.dll</file>
+    </files>
+    <description>DE Folgende neue Einstellungen fÃ¼r Konnektoren in atlas.xml  &lt;Connectors&gt;      &lt;schedule enabled="true" startDelay="00:10:00" /&gt; &lt;/Connectors&gt;  enabled: Deaktiviert die Zeitsteuerung fÃ¼r alle Konnektoren. Die Ãnderung in atlas.xml kann im laufenden Betrieb erfolgen.  startDelay: VerzÃ¶gert die Zeitsteuerung fÃ¼r Konnektoren nach einem Serverneustart um die angegebenen Zeit (Default 10 Minuten). Ãnderung nicht im laufenden Betrieb mÃ¶glich.  EN The following new settings for connectors in atlas.xml  &lt;Connectors&gt;      &lt;schedule enabled="true" startDelay="00:10:00" /&gt; &lt;/Connectors&gt;  enabled: Deactivates the time control for all connectors. The change in atlas.xml can be made during operation.  startDelay: Delays the time control for connectors after a server restart by the specified time (default 10 minutes). Change not possible during operation. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-08-28_Konnektor_-_Scheduler_Einstellungen_in_atlas.xml_xphone_9.0.311.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2024-09-17 Konnektor - Multilinesuche mit Durchwahl</name>
+    <version>9.0.300.1322</version>
+    <files>
+      <file>DirectoryConnectorSrvExport.dll</file>
+    </files>
+    <description>DE Die Multiline-Konfiguration von Benutzern war nicht mÃ¶glich wenn die Rufnummern-Daten aus dem AD nur Durchwahlen (bzw. nicht im Format E.164) enthalten.  Ist nun parallel die Leitungserzeugung mit "FindFirst" aktiviert und erfolgreich, dann kÃ¶nnen die Durchwahlen aud dem AD mit dem damit verknÃ¼pften Wahlparameter fÃ¼r die Sucher der Leitungen korrekt formatiert werden.    EN Multiline configuration of users was not possible if the phone number data from the AD only contained extensions (or not in E.164 format).  If line generation with âFindFirstâ is now activated and successful in parallel, the extensions from the AD can be correctly formatted with the associated dialing parameters for the line finder.   </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-09-17_Konnektor_-_Multilinesuche_mit_Durchwahl_xphone_9.0.311.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2024-09-24 Innovaphone - Anzeigefehler</name>
+    <version>9.0.300.1323</version>
+    <files>
+      <file>InnovaphonePbx.dll</file>
+      <file>PbxLib.dll</file>
+      <file>TelephonyJournalModule.dll</file>
+      <file>TelephonyModule.dll</file>
+    </files>
+    <description>DE Optimierungen bezÃ¼glich der Anzeige: - Fehlerhafte Anzeige von Konferenzen (die technisch keine sind) im Zusammenhang mit Innovaphone-Anrufgruppen - JournaleintrÃ¤ge erhalten Kennzeichnung fÃ¼r AnrufÃ¼bernahme  Sonstige: - CN-Ãnderungen von Innovaphone-Usern werden automatisch (ohne Neustart der Leitung) erkannt - Weitere MÃ¶glichkeit fÃ¼r automatische GerÃ¤tekonfiguration Ã¼ber regulÃ¤re AusdrÃ¼cke (Informationen Ã¼ber den Support) - HTTPS-Verbindung Ã¼ber Self-Signed Zertifikate:       Zertifikate in Local Machine/VertrauenswÃ¼rdige Stammzertifizierungsstellen installieren      PBX-Sondereinstellung: INCertificateSearchServer mit Wert &lt;Fingerabdruck der Zertifikates&gt;  EN Optimizations regarding the display: - Incorrect display of conferences (which are technically not conferences) in connection with Innovaphone call groups - Journal entries are marked for call pickup  Other: - CN changes of Innovaphone users are recognized automatically (without restarting the line) - Further option for automatic device configuration via regular expressions (information about support) </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-09-24_Innovaphone_-_Anzeigefehler_xphone_9.0.311.exe</downloadlink>
+  </patch>
 </patches>
