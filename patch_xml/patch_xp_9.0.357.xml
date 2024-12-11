@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
-
+    <patch>
+        <name>2024-12-06 Optimierung Benutzersuche in Admin UI</name>
+        <version>9.0.330.1358</version>
+        <files>
+            <file>ConfigModule.dll</file>
+        </files>
+        <description>DE Optimierung Benutzersuche in Admin UI bzgl. sehr vieler TeamDesk Queues/Gruppen  EN Optimization of user search in Admin UI regarding many TeamDesk queues/groups </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-06_Optimierung_Benutzersuche_in_Admin_UI_xphone_9.0.357.exe</downloadlink>
+    </patch>
 </patches>
