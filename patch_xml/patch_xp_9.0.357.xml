@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
     <patch>
+        <name>2024-12-11 CSTA - SSH-Verbindungen nicht möglich</name>
+        <version>9.0.330.1358</version>
+        <files>
+            <file>CstaTel.dll</file>
+        </files>
+        <description>DE CSTA: SSH-Verbindungen (z.B. fÃ¼r Anrufumleitungen bei OXE) werden von der Gegenstelle abgelehnt.  EN CSTA: SSH connections (e.g. for call forwarding with OXE) are rejected by the remote station. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-11_CSTA_-_SSH-Verbindungen_nicht_moeglich_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
         <name>2024-12-06 Optimierung Benutzersuche in Admin UI</name>
         <version>9.0.330.1358</version>
         <files>
