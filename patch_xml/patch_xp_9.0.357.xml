@@ -18,4 +18,13 @@
         <description>DE Optimierung Benutzersuche in Admin UI bzgl. sehr vieler TeamDesk Queues/Gruppen  EN Optimization of user search in Admin UI regarding many TeamDesk queues/groups </description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-06_Optimierung_Benutzersuche_in_Admin_UI_xphone_9.0.357.exe</downloadlink>
     </patch>
+    <patch>
+        <name>2024-12-12 TeamDesk - Scheduled Collection fix</name>
+        <version>9.0.330.1363</version>
+        <files>
+            <file>AtlasCltExport.dll</file>
+        </files>
+        <description>DE Dieser Patch behebt das Problem, dass Wartefelder mit wiederkehrenden und JahresÃ¼bergreifenden Ausnahmen nicht mehr geladen werden kÃ¶nnen.  EN This patch fixes the problem that waiting fields with recurring and cross-year exceptions can no longer be loaded. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-12_TeamDesk_-_Scheduled_Collection_fix_xphone_9.0.357.exe</downloadlink>
+    </patch>
 </patches>
