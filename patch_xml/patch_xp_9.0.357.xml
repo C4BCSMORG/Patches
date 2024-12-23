@@ -1,21 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
     <patch>
-        <name>2024-12-11 CSTA - SSH-Verbindungen nicht möglich</name>
-        <version>9.0.330.1358</version>
-        <files>
-            <file>CstaTel.dll</file>
-        </files>
-        <description>DE CSTA: SSH-Verbindungen (z.B. fÃ¼r Anrufumleitungen bei OXE) werden von der Gegenstelle abgelehnt.  EN CSTA: SSH connections (e.g. for call forwarding with OXE) are rejected by the remote station. </description>
-        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-11_CSTA_-_SSH-Verbindungen_nicht_moeglich_xphone_9.0.357.exe</downloadlink>
-    </patch>
-    <patch>
         <name>2024-12-06 Optimierung Benutzersuche in Admin UI</name>
         <version>9.0.330.1358</version>
         <files>
             <file>ConfigModule.dll</file>
         </files>
-        <description>DE Optimierung Benutzersuche in Admin UI bzgl. sehr vieler TeamDesk Queues/Gruppen  EN Optimization of user search in Admin UI regarding many TeamDesk queues/groups </description>
-        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-06_Optimierung_Benutzersuche_in_Admin_UI_xphone_9.0.357.exe</downloadlink>
+        <description>DE Optimierung Benutzersuche in Admin UI bzgl. sehr vieler TeamDesk Queues/Gruppen
+            EN Optimization of user search in Admin UI regarding many TeamDesk queues/groups </description>
+        <downloadlink>
+            https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-06_Optimierung_Benutzersuche_in_Admin_UI_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
+        <name>2024-12-06 PowerShell Erweiterung NoLog Parameter und automatische Logretention</name>
+        <version>9.0.330.1360</version>
+        <files />
+        <description>DE Dieser Patch fÃ¼gt allen XP- PowerShell Befehlen den optionalen Parameter -NoLog
+            hinzu. Dieser verhindert sÃ¤mtliche Logausgaben in das Dateisystem. ZusÃ¤tzlich werden alle
+            Logfiles Ã¤lter als 5 Tage automatisch beim AusfÃ¼hren eines beliebigen Befehls gelÃ¶scht. EN
+            This patch adds the optional parameter -NoLog to all XP PowerShell commands. This prevents all
+            log outputs to the file system. In addition, all log files older than 5 days are automatically
+            deleted when any command is executed. </description>
+        <downloadlink>
+            https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-06_PowerShell_Erweiterung_NoLog_Parameter_und_automatische_Logretention_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
+        <name>2024-12-11 CSTA - SSH-Verbindungen nicht möglich</name>
+        <version>9.0.330.1358</version>
+        <files>
+            <file>CstaTel.dll</file>
+        </files>
+        <description>DE CSTA: SSH-Verbindungen (z.B. fÃ¼r Anrufumleitungen bei OXE) werden von der
+            Gegenstelle abgelehnt. EN CSTA: SSH connections (e.g. for call forwarding with OXE) are
+            rejected by the remote station. </description>
+        <downloadlink>
+            https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-11_CSTA_-_SSH-Verbindungen_nicht_moeglich_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
+        <name>2024-12-16 VDir berücksichtigt unbekannte OID</name>
+        <version>9.0.330.1366</version>
+        <files>
+            <file>VDirEngineCommon.dll</file>
+        </files>
+        <description>DE Dieser Patch berÃ¼cksichtigt beim Parsen einer eingehenden Suchanfrage unbekannte OID. Eine valide SQL-Generierung fÃ¼r den Zugriff auf den internen VDir-Cache wird gewÃ¤hrleistet.  EN This patch takes unknown OIDs into account when parsing an incoming search query. Valid SQL generation for accessing the internal VDir cache is guaranteed. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-16_VDir_beruecksichtigt_unbekannte_OID_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
+        <name>2024-12-19 CallCenter - ScheduledCollection Fix</name>
+        <version>9.0.330.1369</version>
+        <files>
+            <file>AtlasCltExport.dll</file>
+        </files>
+        <description>DE Dieser Patch behebt das Problem, dass bei einer Ãffnungszeiten Konfiguration 00:00 - 23:59, sich die Benutzer nicht mehr als Agenten anmelden kÃ¶nnen.  EN This patch fixes the problem that users can no longer log in as agents with an opening hours configuration of 00:00 - 23:59. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-19_CallCenter_-_ScheduledCollection_Fix_xphone_9.0.357.exe</downloadlink>
     </patch>
 </patches>
