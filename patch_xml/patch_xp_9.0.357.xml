@@ -35,6 +35,24 @@
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-16_VDir_beruecksichtigt_unbekannte_OID_xphone_9.0.357.exe</downloadlink>
     </patch>
     <patch>
+        <name>2024-12-16 Anruferanzeige zwischenTeammitgliedern fehlerhaft</name>
+        <version>9.0.330.1366</version>
+        <files>
+            <file>UserServiceModule.dll</file>
+        </files>
+        <description>DE Die Anruferanzeige zwischen Teammigliedern konnte bei mehreren gleichzeitigen Anrufen auf einer Leitung fehlerhaft sein.   EN The caller display between team members could be faulty if there were several simultaneous calls on one line.  </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-16_Anruferanzeige_zwischenTeammitgliedern_fehlerhaft_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
+        <name>2024-12-18 VDir berücksichtigt unbekannte OID bei M365 Datenquellen</name>
+        <version>9.0.330.1368</version>
+        <files>
+            <file>VDirEngineCommon.dll</file>
+        </files>
+        <description>DE Dieser Patch behebt fÃ¼r die VDir M365 Datenquellen das Problem, dass bei einer Ã¼ber LDAP abgesetzten Suche, eine nicht unterstÃ¼tzten OID ignoriert wird. Die Auswertung der weiteren Suchattribute ist hiervon nicht beeintrÃ¤chtigt.  EN This patch fixes the problem for VDir M365 data sources that an unsupported OID is ignored when a search is performed via LDAP. The evaluation of the other search attributes is not affected by this. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-18_VDir_beruecksichtigt_unbekannte_OID_bei_M365_Datenquellen_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
         <name>2024-12-19 CallCenter - ScheduledCollection Fix</name>
         <version>9.0.330.1369</version>
         <files>
@@ -43,4 +61,5 @@
         <description>DE Dieser Patch behebt das Problem, dass bei einer Ãffnungszeiten Konfiguration 00:00 - 23:59, sich die Benutzer nicht mehr als Agenten anmelden kÃ¶nnen.  EN This patch fixes the problem that users can no longer log in as agents with an opening hours configuration of 00:00 - 23:59. </description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-19_CallCenter_-_ScheduledCollection_Fix_xphone_9.0.357.exe</downloadlink>
     </patch>
+
 </patches>
