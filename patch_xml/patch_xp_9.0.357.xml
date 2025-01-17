@@ -26,6 +26,23 @@
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-11_CSTA_-_SSH-Verbindungen_nicht_moeglich_xphone_9.0.357.exe</downloadlink>
     </patch>
     <patch>
+        <name>2024-12-11 Telephony - Bug-Fix Collection</name>
+        <version>9.0.330.1358</version>
+        <files>
+            <file>BroadsoftPbx.dll</file>
+            <file>CallCenterModule.dll</file>
+            <file>FreeSwitchPbxLib.dll</file>
+            <file>FsSipPbx.dll</file>
+            <file>InnovaphonePbx.dll</file>
+            <file>TelephonyJournalModule.dll</file>
+            <file>Linux\SatelliteBridge\freeswitch-xcc-core.deb</file>
+            <file>Linux\SatelliteBridge\freeswitch-xcc-core.deb.info</file>
+            <file>XCC\mod\managedcore\mod_managedC4B_Core.dll</file>
+        </files>
+        <description>DE Fixes: - AnyDevice: Nach einem Transfer wird nun nicht mehr die AnyDevice Nummer angezeigt - TeamDesk: Die Wartefeld-ID wird in keinem Szenarien mehr im Journal angezeigt - Bei anonymen Anrufen auf AnyDevice wird im From Header "Empty" signalisiert - Softphone Calls zu sich selbst werden jetzt immer erkannt und nicht zugelassen - AnyDevice und Softphone-Anrufe werden im XPhone Client nicht mehrfach singalisiert - TeamDesk: UnnÃ¶tige Warnung beim Entfernen von Agenten aus einer Queue werden nicht mehr ins Eventlog geschrieben - Innovaphone/DLAN: Optimierung fÃ¼r parallele Events (Leitung/Calls)   EN Fixes: - AnyDevice: After a transfer the AnyDevice number no longer be displayed - TeamDesk: The waiting field ID will no longer be displayed in the journal in certain scenarios - For anonymous calls to AnyDevice, âEmptyâ will be signaled in the From header - Softphone Calls to your own number are recognized and no longer permitted - AnyDevice and Softphone-Calls are no longer displayed multiple times - TeamDesk: Unnecessary warnings when removing agents from a queue will no longer displayed in the eventviewer - Innovaphone/DLAN- Optimization for parallel events (line/calls) </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-11_Telephony_-_Bug-Fix_Collection_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
         <name>2024-12-16 VDir berücksichtigt unbekannte OID</name>
         <version>9.0.330.1366</version>
         <files>
