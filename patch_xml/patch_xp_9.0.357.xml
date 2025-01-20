@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
+	<patch>
+		<name>2024-12-06 Einspielen von Backups aus Systemen mit älteren Version</name>
+		<version>9.0.330.1359</version>
+		<files>
+			<file>XPhoneServerBackup.exe</file>
+		</files>
+		<description>DE Dieser Patch bewirkt das automatische AusfÃ¼hren aller InstallerDlls beim Restore durch den BackupManager  EN This patch causes the BackupManager to automatically execute all InstallerDlls when restoring </description>
+		<downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-06_Einspielen_von_Backups_aus_Systemen_mit_aelteren_Version_xphone_9.0.357.exe</downloadlink>
+	</patch>
     <patch>
         <name>2024-12-06 Optimierung Benutzersuche in Admin UI</name>
         <version>9.0.330.1358</version>
@@ -78,5 +87,14 @@
         <description>DE Dieser Patch behebt das Problem, dass bei einer Ãffnungszeiten Konfiguration 00:00 - 23:59, sich die Benutzer nicht mehr als Agenten anmelden kÃ¶nnen.  EN This patch fixes the problem that users can no longer log in as agents with an opening hours configuration of 00:00 - 23:59. </description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-19_CallCenter_-_ScheduledCollection_Fix_xphone_9.0.357.exe</downloadlink>
     </patch>
-
+	<patch>
+		<name>2025-01-13 Fehlende Scrollleiste bei zu vielen TeamDesk Ansagen</name>
+		<version>9.0.330.1372</version>
+		<files>
+			<file>WebConfiguration\bin\WebConfigurationBase.dll</file>
+			<file>WebConfiguration\WebConfigurationTelephony\CtrlCallCenterGroupQueue.ascx</file>
+		</files>
+		<description>DE Fehlende Scrollleiste bei zu vielen aufgespielten Ansagen in den TeamDesk Gruppen  EN Missing scrollbar when there are too many recorded announcements in the TeamDesk groups </description>
+		<downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-01-13_Fehlende_Scrollleiste_bei_zu_vielen_TeamDesk_Ansagen_xphone_9.0.357.exe</downloadlink>
+	</patch> 
 </patches>
