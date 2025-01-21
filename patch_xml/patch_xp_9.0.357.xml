@@ -52,6 +52,15 @@
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-11_Telephony_-_Bug-Fix_Collection_xphone_9.0.357.exe</downloadlink>
     </patch>
     <patch>
+        <name>2024-12-12 Umleitung fehlt im Journaleintrag eines verpassten Softphone Anrufs</name>
+        <version>9.0.330.1359</version>
+        <files>
+            <file>FsSipPbx.dll</file>
+        </files>
+        <description>DE Voraussetzung: 2024-12-11 Telephony - Bug-Fix Collection  Im Journaleintrag eines verpassten Anrufs eines Softphone Benutzers fehlte die Information einer eventuell davor stattgefundenen Weiterleitung.  EN Requirement: 2024-12-11 Telephony - Bug-Fix Collection  In the journal entry of a missed call of a softphone user, the information of a possible previous call forwarding was missing. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-12_Umleitung_fehlt_im_Journaleintrag_eines_verpassten_Softphone_Anrufs_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
         <name>2024-12-16 VDir berücksichtigt unbekannte OID</name>
         <version>9.0.330.1366</version>
         <files>
@@ -70,6 +79,16 @@
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-16_Anruferanzeige_zwischenTeammitgliedern_fehlerhaft_xphone_9.0.357.exe</downloadlink>
     </patch>
     <patch>
+        <name>2024-12-17 VDir Datenquelle ODBC erneuter Verbindungsaufbau</name>
+        <version>9.0.330.1367</version>
+        <files>
+            <file>VDirAdapterODBC32.exe</file>
+            <file>VDirAdapterODBC64.exe</file>
+        </files>
+        <description>DE Die VDir ODBC Datenquelle Ã¶ffnet standardmÃ¤Ãig fÃ¼nf ODBC-Verbindungen. Im Falle eines Verbindungsfehlers wechselt die Datenquelle in den Fehlerzustand und versucht zyklisch diese fÃ¼nf Verbindungen wieder zu erstellen. Durch diesen Patch wertet die Datenquelle nur einen vollstÃ¤ndigen Verbindungsaufbau als erfolgreich und wechselt nur in diesem Fall in den Zustand "Aktiv".   EN The VDir ODBC data source opens five ODBC connections by default. In the event of a connection error, the data source switches to the error state and cyclically attempts to re-establish these five connections. With this patch, the data source only recognises a complete connection as successful and only switches to the âActiveâ state in this case.  </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-17_VDir_Datenquelle_ODBC_erneuter_Verbindungsaufbau_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
         <name>2024-12-18 VDir berücksichtigt unbekannte OID bei M365 Datenquellen</name>
         <version>9.0.330.1368</version>
         <files>
@@ -84,8 +103,17 @@
         <files>
             <file>AtlasCltExport.dll</file>
         </files>
-        <description>DE Dieser Patch behebt das Problem, dass bei einer Ãffnungszeiten Konfiguration 00:00 - 23:59, sich die Benutzer nicht mehr als Agenten anmelden kÃ¶nnen.  EN This patch fixes the problem that users can no longer log in as agents with an opening hours configuration of 00:00 - 23:59. </description>
+        <description>DE Dieser Patch behebt das Problem, dass bei einer Ãffnungszeiten Konfiguration 00:00-23:59, sich die Benutzer nicht mehr als Agenten anmelden kÃ¶nnen.  EN This patch fixes the problem that users can no longer log in as agents with an opening hours configuration of 00:00-23:59. </description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-19_CallCenter_-_ScheduledCollection_Fix_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
+        <name>2024-12-23 TeamDesk - Reset Agent Call Data</name>
+        <version>9.0.330.1370</version>
+        <files>
+            <file>CallCenterModule.dll</file>
+        </files>
+        <description>DE Voraussetzung: 2024-12-11 Telephony - Bug-Fix Collection  Dieser Patch behebt das Problem, dass fÃ¼r einen Agenten die GesprÃ¤chszeit, oder auch die Anzahl der angenommenen Anrufe nicht zurÃ¼ckgesetzt wurden.  EN Requirement: 2024-12-11 Telephony - Bug-Fix Collection  This patch fixes the problem that the call time or the number of answered calls were not reset for an agent. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-23_TeamDesk_-_Reset_Agent_Call_Data_xphone_9.0.357.exe</downloadlink>
     </patch>
 	<patch>
 		<name>2025-01-13 Fehlende Scrollleiste bei zu vielen TeamDesk Ansagen</name>
