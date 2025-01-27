@@ -124,5 +124,62 @@
 		</files>
 		<description>DE Fehlende Scrollleiste bei zu vielen aufgespielten Ansagen in den TeamDesk Gruppen  EN Missing scrollbar when there are too many recorded announcements in the TeamDesk groups </description>
 		<downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-01-13_Fehlende_Scrollleiste_bei_zu_vielen_TeamDesk_Ansagen_xphone_9.0.357.exe</downloadlink>
-	</patch> 
+	</patch>
+    <patch>
+        <name>2025-01-24 XCC hängende Calls</name>
+        <version>14.42.34433.0</version>
+        <files>
+            <file>Linux\SatelliteBridge\C4BFreeswitch.zip</file>
+            <file>Linux\SatelliteBridge\C4BFreeswitch.zip.info</file>
+            <file>XCC\FreeSwitch.dll</file>
+            <file>XCC\FreeSwitchConsole.exe</file>
+            <file>XCC\fs_cli.exe</file>
+            <file>XCC\libapr.dll</file>
+            <file>XCC\libbroadvoice.dll</file>
+            <file>XCC\libpng16.dll</file>
+            <file>XCC\libpq.dll</file>
+            <file>XCC\libsndfile-1.dll</file>
+            <file>XCC\libspandsp.dll</file>
+            <file>XCC\libteletone.dll</file>
+            <file>XCC\lua53.dll</file>
+            <file>XCC\openssl.exe</file>
+            <file>XCC\pcre.dll</file>
+            <file>XCC\pocketsphinx.dll</file>
+            <file>XCC\pthread.dll</file>
+            <file>XCC\sphinxbase.dll</file>
+            <file>XCC\zlib.dll</file>
+            <file>XCC\mod\FreeSWITCH.Managed.dll</file>
+            <file>XCC\mod\FreeSWITCH.ManagedCore.deps.json</file>
+            <file>XCC\mod\FreeSWITCH.ManagedCore.dll</file>
+            <file>XCC\mod\FreeSWITCH.ManagedCore.runtimeconfig.json</file>
+            <file>XCC\mod\mod_callcenter.dll</file>
+            <file>XCC\mod\mod_commands.dll</file>
+            <file>XCC\mod\mod_conference.dll</file>
+            <file>XCC\mod\mod_console.dll</file>
+            <file>XCC\mod\mod_dialplan_xml.dll</file>
+            <file>XCC\mod\mod_dptools.dll</file>
+            <file>XCC\mod\mod_event_socket.dll</file>
+            <file>XCC\mod\mod_expr.dll</file>
+            <file>XCC\mod\mod_fifo.dll</file>
+            <file>XCC\mod\mod_fsv.dll</file>
+            <file>XCC\mod\mod_hash.dll</file>
+            <file>XCC\mod\mod_local_stream.dll</file>
+            <file>XCC\mod\mod_logfile.dll</file>
+            <file>XCC\mod\mod_loopback.dll</file>
+            <file>XCC\mod\mod_lua.dll</file>
+            <file>XCC\mod\mod_managed.dll</file>
+            <file>XCC\mod\mod_managedcore.dll</file>
+            <file>XCC\mod\mod_native_file.dll</file>
+            <file>XCC\mod\mod_opus.dll</file>
+            <file>XCC\mod\mod_png.dll</file>
+            <file>XCC\mod\mod_siren.dll</file>
+            <file>XCC\mod\mod_sndfile.dll</file>
+            <file>XCC\mod\mod_sofia.dll</file>
+            <file>XCC\mod\mod_spandsp.dll</file>
+            <file>XCC\mod\mod_tone_stream.dll</file>
+            <file>XCC\mod\mod_verto.dll</file>
+        </files>
+        <description>DE LÃ¶st das Problem der hÃ¤ngenden Calls bzw. der Nichterreichbarkeit von Softphone-/Anydevice-Teilnehmern. Nach der Installation des Patches muss die neueste C Runtime installiert werden. Download: https://aka.ms/vs/17/release/vc_redist.x64.exe   EN Solves the problem of hanging calls or the inaccessibility of softphone/anydevice subscribers. After installing the patch, the latest C Runtime must be installed. Download: https://aka.ms/vs/17/release/vc_redist.x64.exe </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-01-24_XCC_haengende_Calls_xphone_9.0.357.exe</downloadlink>
+    </patch>
 </patches>
