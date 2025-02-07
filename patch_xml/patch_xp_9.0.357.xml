@@ -26,6 +26,15 @@
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-06_PowerShell_Erweiterung_NoLog_Parameter_und_automatische_Logretention_xphone_9.0.357.exe</downloadlink>
     </patch>
     <patch>
+        <name>2024-12-10 Additional logging for VDirEngineModule</name>
+        <version>9.0.330.1361</version>
+        <files>
+            <file>VDirEngineModule.dll</file>
+        </files>
+        <description>DE Dieser Patch erweitert das Logging um die Problemsuche mit Indexaufbau zu ermÃ¶glichen.  EN This patch extends the logging to enable the problem search during building the index. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-10_Additional_logging_for_VDirEngineModule_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
         <name>2024-12-11 CSTA - SSH-Verbindungen nicht möglich</name>
         <version>9.0.330.1358</version>
         <files>
@@ -68,6 +77,17 @@
         </files>
         <description>DE Dieser Patch berÃ¼cksichtigt beim Parsen einer eingehenden Suchanfrage unbekannte OID. Eine valide SQL-Generierung fÃ¼r den Zugriff auf den internen VDir-Cache wird gewÃ¤hrleistet.  EN This patch takes unknown OIDs into account when parsing an incoming search query. Valid SQL generation for accessing the internal VDir cache is guaranteed. </description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-16_VDir_beruecksichtigt_unbekannte_OID_xphone_9.0.357.exe</downloadlink>
+    </patch>
+    <patch>
+        <name>2024-12-16 CbyX alternative Identität Admin doppelte Email</name>
+        <version>9.0.330.1365</version>
+        <files>
+            <file>VDirAdapterMAPICFEngine.dll</file>
+            <file>VDirEndpointCbyXEngine.dll</file>
+            <file>VDirSrvExport.dll</file>
+        </files>
+        <description>DE Dieser Patch behebt das Problem, wenn ein Administrator und Benutzer die selbe Email Adresse haben, keine eindeutige IdentitÃ¤t gefunden werden kann. ZusÃ¤tzliche Logausgaben fÃ¼r alternative IdentitÃ¤t und private Outlookkontakte wurden hinzugefÃ¼gt.  EN This patch fixes the problem when an administrator and user have the same email address but no unique identity can be found. Additional log outputs for alternative identity and private Outlook contacts have been added. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-16_CbyX_alternative_Identitaet_Admin_doppelte_Email_xphone_9.0.357.exe</downloadlink>
     </patch>
     <patch>
         <name>2024-12-16 Anruferanzeige zwischenTeammitgliedern fehlerhaft</name>
