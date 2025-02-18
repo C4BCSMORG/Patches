@@ -123,7 +123,7 @@
         <files>
             <file>AtlasCltExport.dll</file>
         </files>
-        <description>DE Dieser Patch behebt das Problem, dass bei einer Ãffnungszeiten Konfiguration 00:00-23:59, sich die Benutzer nicht mehr als Agenten anmelden kÃ¶nnen.  EN This patch fixes the problem that users can no longer log in as agents with an opening hours configuration of 00:00-23:59. </description>
+        <description>DE Dieser Patch behebt das Problem, dass bei einer Ãffnungszeiten Konfiguration 00:00-23:59, sich die Benutzer nicht mehr als Agenten anmelden kÃ¶nnen.  EN This patch fixes the problem that users can no longer log in as agents with an opening hours configuration of 00:00-23:59 </description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2024-12-19_CallCenter_-_ScheduledCollection_Fix_xphone_9.0.357.exe</downloadlink>
     </patch>
     <patch>
