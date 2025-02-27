@@ -300,4 +300,16 @@
         <description>DE Sporadisch (aber bei betroffenen Systemen mit hoher Wahrscheinlichkeit) geht die Anruf-Funktion auf CloudPBX-Leitungen verloren. Es sind dann sowohl gehende als auch kommende Anrufe betroffen.  Die Funktion kann durch einen Neustart der Leitung nicht wieder hergestellt werden.  EN Sporadically (but with a high probability on affected systems) the call function on CloudPBX lines is lost. Both outgoing and incoming calls are then affected.  The function cannot be restored by restarting the line. </description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-02-11_CloudPBX_-_Anruf-Funktionen_gehen_verloren_xphone_9.0.357.exe</downloadlink>
     </patch>
+	<patch>
+		<name>2025-02-21 Teamdesk Call forwarding fix</name>
+		<version>9.0.330.1364</version>
+		<files>
+			<file>Linux\SatelliteBridge\freeswitch-xcc-core.deb</file>
+			<file>Linux\SatelliteBridge\freeswitch-xcc-core.deb.info</file>
+			<file>XCC\mod\managedcore\mod_managedC4B_Core.deps.json</file>
+			<file>XCC\mod\managedcore\mod_managedC4B_Core.dll</file>
+		</files>
+		<description>DE Teamdesk Weiterleitung funktioniert nun  EN Teamdesk forwarding now works </description>
+		<downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-02-21_Teamdesk_Call_forwarding_fix_xphone_9.0.357.exe</downloadlink>
+	</patch>
 </patches>
