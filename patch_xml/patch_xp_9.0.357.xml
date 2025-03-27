@@ -301,6 +301,17 @@
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-02-11_CloudPBX_-_Anruf-Funktionen_gehen_verloren_xphone_9.0.357.exe</downloadlink>
     </patch>
 	<patch>
+		<name>2025-02-13 Softphone-Mobile - Problem nach Gateway-Ausfall-Neustart</name>
+		<version>8.13.52.0</version>
+		<files>
+			<file>PhoneNumbers.dll</file>
+			<file>TelephonyCltExport.dll</file>
+			<file>TelephonySoftphone.dll</file>
+		</files>
+		<description>DE Nach einem Ausfall oder Neustart eines Sip-Gateways kÃ¶nnen Softphone-Mobile dauerhaft auÃer Betrieb bleiben.   EN After a failure or restart of a Sip gateway, Softphone mobiles can remain permanently out of service.  </description>
+		<downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-02-13_Softphone-Mobile_-_Problem_nach_Gateway-Ausfall-Neustart_xphone_9.0.357.exe</downloadlink>
+	</patch>
+	<patch>
 		<name>2025-02-21 Teamdesk Call forwarding fix</name>
 		<version>9.0.330.1364</version>
 		<files>
