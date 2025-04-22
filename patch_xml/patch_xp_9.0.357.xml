@@ -323,4 +323,14 @@
 		<description>DE Teamdesk Weiterleitung funktioniert nun  EN Teamdesk forwarding now works </description>
 		<downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-02-21_Teamdesk_Call_forwarding_fix_xphone_9.0.357.exe</downloadlink>
 	</patch>
+    <patch>
+        <name>2025-03-18 TeamDesk queues are now opened properly during business hours</name>
+        <version>9.7.19.1019</version>
+        <files>
+            <file>CallCenterModule.dll</file>
+            <file>AtlasCltExport.dll</file>
+        </files>
+        <description>DE TeamDesk-Warteschlangen werden jetzt wÃ¤hrend der GeschÃ¤ftszeiten ordnungsgemÃ¤Ã geÃ¶ffnet  EN TeamDesk queues are now opened properly during business hours </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-03-18_TeamDesk_queues_are_now_opened_properly_during_business_hours_xphone_9.0.357.exe</downloadlink>
+    </patch>
 </patches>
