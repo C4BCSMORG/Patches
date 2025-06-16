@@ -333,4 +333,13 @@
         <description>DE TeamDesk-Warteschlangen werden jetzt wÃ¤hrend der GeschÃ¤ftszeiten ordnungsgemÃ¤Ã geÃ¶ffnet  EN TeamDesk queues are now opened properly during business hours </description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-03-18_TeamDesk_queues_are_now_opened_properly_during_business_hours_xphone_9.0.357.exe</downloadlink>
     </patch>
+    <patch>
+        <name>2025-06-03 Betrefftext als Prasenztext anzeigen funktioniert nicht</name>
+        <version>9.7.47.1047</version>
+        <files>
+            <file>UserPresenceModule.dll</file>
+        </files>
+        <description>DE This patch fixes the problem that the subject of an O365 appointment is displayed even though the checkbox âShow subject text as presence textâ is not checked.  EN This patch fixes the problem that the text of an O365 appointment is displayed even though the checkbox âShow subject text as presence textâ is not checked. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.357/2025-06-03_Betrefftext_als_Prasenztext_anzeigen_funktioniert_nicht_xphone_9.0.357.exe</downloadlink>
+    </patch>
 </patches>
