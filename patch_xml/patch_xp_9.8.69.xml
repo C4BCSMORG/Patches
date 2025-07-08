@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patches>
+  <patch>
+    <name>2025-07-01 TeamDesk verursacht Absturz des Servers</name>
+    <version>9.8.82.1082</version>
+    <files>
+      <file>CallCenterModule.dll</file>
+      <file>UMS\bin\CallCenterModule.dll</file>
+    </files>
+    <description>DE Folgende Meldung zeigt das Problem im Eventlog an:  Beschreibung: Der Prozess wurde aufgrund einer unbehandelten Ausnahme beendet.  Ausnahmeinformationen: System.ApplicationException     bei System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()     bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task)     bei C4B.Atlas.CallCenter.CallCenterXccConnection&lt;AgentSetStatus&gt;d__90.MoveNext()     bei System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()     EN The following message shows the problem in the event log:  Description: The process was terminated due to an unhandled exception.  Ausnahmeinformationen: System.ApplicationException     bei System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()     bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task)     bei C4B.Atlas.CallCenter.CallCenterXccConnection&lt;AgentSetStatus&gt;d__90.MoveNext()     bei System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()    </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-07-01_TeamDesk_verursacht_Absturz_des_Servers_xphone_9.8.69.exe</downloadlink>
+  </patch>
+</patches>
