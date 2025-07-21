@@ -18,4 +18,15 @@
     <description>DE Dieser Patch stellt sicher, dass der Date-Header in E-Mails im XPhone-Server ergÃ¤nzt wird, wenn er fehlt.  EN This patch ensures that the Date header is added to e-mail in the XPhone server if it is missing. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-07-03_Date_Header_fehlt_bei_Mailversand_xphone_9.8.69.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2025-07-10 Teamdesk forwarding fix</name>
+    <version>9.8.93.93</version>
+    <files>
+      <file>Linux\SatelliteBridge\Freeswitch-xcc-core.deb</file>
+      <file>Linux\SatelliteBridge\Freeswitch-xcc-core.deb.info</file>
+      <file>XCC\mod\managedcore\mod_managedC4B_Core.dll</file>
+    </files>
+    <description>DE Beim Wechsel auf ein anderes Teamdesk wurde die Rufnummer nicht geÃ¤ndert und deshalb wurde im Teamdesk nochmal angerufen. Dies ist nun repariert. EN When forwarding to another team desk, the phone number wasn't changed, so the team desk was called again. This has now been fixed. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-07-10_Teamdesk_forwarding_fix_xphone_9.8.69.exe</downloadlink>
+  </patch>
 </patches>
