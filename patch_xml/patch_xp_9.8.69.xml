@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
   <patch>
+    <name>2025-06-30 Betrefftext als Prasenztext anzeigen funktioniert nicht</name>
+    <version>9.8.71.1071</version>
+    <files>
+      <file>UserPresenceModule.dll</file>
+    </files>
+    <description>DE Dieser Patch behebt das Problem, dass der Betreff eines O365-Termins angezeigt wird, obwohl das KontrollkÃ¤stchen âBetrefftext als PrÃ¤senztext anzeigenâ nicht aktiviert ist.  EN This patch fixes the problem that the subject of an O365 appointment is displayed even though the checkbox âShow subject text as presence textâ is not checked. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-06-30_Betrefftext_als_Prasenztext_anzeigen_funktioniert_nicht_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
     <name>2025-07-01 TeamDesk verursacht Absturz des Servers</name>
     <version>9.8.82.1082</version>
     <files>
