@@ -1,41 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <patches>
   <patch>
-    <name>2025-06-30 Betrefftext als Prasenztext anzeigen funktioniert nicht</name>
-    <version>9.8.71.1071</version>
+    <name>2025-08-13 Sammel-Patch 05-06-2025 - 05-08-2025</name>
+    <version>9.8.70.1070</version>
     <files>
-      <file>UserPresenceModule.dll</file>
-    </files>
-    <description>DE Dieser Patch behebt das Problem, dass der Betreff eines O365-Termins angezeigt wird, obwohl das KontrollkÃ¤stchen âBetrefftext als PrÃ¤senztext anzeigenâ nicht aktiviert ist.  EN This patch fixes the problem that the subject of an O365 appointment is displayed even though the checkbox âShow subject text as presence textâ is not checked. </description>
-    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-06-30_Betrefftext_als_Prasenztext_anzeigen_funktioniert_nicht_xphone_9.8.69.exe</downloadlink>
-  </patch>
-  <patch>
-    <name>2025-07-01 TeamDesk verursacht Absturz des Servers</name>
-    <version>9.8.82.1082</version>
-    <files>
+      <file>Atlas.dll</file>
+      <file>AtlasLicense.dll</file>
+      <file>AtlasSrvExport.dll</file>
+      <file>AtlasTeamDesk.dll</file>
+      <file>AtlasUser.dll</file>
       <file>CallCenterModule.dll</file>
-    </files>
-    <description>DE Folgende Meldung zeigt das Problem im Eventlog an:  Beschreibung: Der Prozess wurde aufgrund einer unbehandelten Ausnahme beendet.  Ausnahmeinformationen: System.ApplicationException     bei System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()     bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task)     bei C4B.Atlas.CallCenter.CallCenterXccConnection&lt;AgentSetStatus&gt;d__90.MoveNext()     bei System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()     EN The following message shows the problem in the event log:  Description: The process was terminated due to an unhandled exception.  Ausnahmeinformationen: System.ApplicationException     bei System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()     bei System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(System.Threading.Tasks.Task)     bei C4B.Atlas.CallCenter.CallCenterXccConnection&lt;AgentSetStatus&gt;d__90.MoveNext()     bei System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()    </description>
-    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-07-01_TeamDesk_verursacht_Absturz_des_Servers_xphone_9.8.69.exe</downloadlink>
-  </patch>
-  <patch>
-    <name>2025-07-03 Date Header fehlt bei Mailversand</name>
-    <version>9.8.85.1085</version>
-    <files>
+      <file>ClientConfigSrvExport.dll</file>
+      <file>ConfigModule.dll</file>
+      <file>ConfigTelephony.dll</file>
+      <file>FsSipPbx.dll</file>
       <file>MessageStoreModule.dll</file>
-    </files>
-    <description>DE Dieser Patch stellt sicher, dass der Date-Header in E-Mails im XPhone-Server ergÃ¤nzt wird, wenn er fehlt.  EN This patch ensures that the Date header is added to e-mail in the XPhone server if it is missing. </description>
-    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-07-03_Date_Header_fehlt_bei_Mailversand_xphone_9.8.69.exe</downloadlink>
-  </patch>
-  <patch>
-    <name>2025-07-10 Teamdesk forwarding fix</name>
-    <version>9.8.93.93</version>
-    <files>
+      <file>TelephonyJournalModule.dll</file>
+      <file>UserPresenceModule.dll</file>
+      <file>VDirAdapterNotesCommon.dll</file>
+      <file>VDirAdapterNotesPrivEngine.dll</file>
+      <file>VDirAdapterNotesPrivProcess.exe</file>
+      <file>VDirModule.dll</file>
       <file>Linux\SatelliteBridge\Freeswitch-xcc-core.deb</file>
       <file>Linux\SatelliteBridge\Freeswitch-xcc-core.deb.info</file>
+      <file>WebClientApi\ClientApi.dll</file>
+      <file>WebClientApi\ClientApi.exe</file>
+      <file>WebConfiguration\bin\WebConfigurationLicense.dll</file>
+      <file>WebConfiguration\bin\WebConfigurationTelephony.dll</file>
       <file>XCC\mod\managedcore\mod_managedC4B_Core.dll</file>
+      <file>AtlasCltExport.dll</file>
     </files>
-    <description>DE Beim Wechsel auf ein anderes Teamdesk wurde die Rufnummer nicht geÃ¤ndert und deshalb wurde im Teamdesk nochmal angerufen. Dies ist nun repariert. EN When forwarding to another team desk, the phone number wasn't changed, so the team desk was called again. This has now been fixed. </description>
-    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-07-10_Teamdesk_forwarding_fix_xphone_9.8.69.exe</downloadlink>
+    <description>DE Sammel-Patch. EnthÃ¤llt die folgenden Patches:  2025-06-05 Lizenzanzeige korrigiert 2025-06-30 Betrefftext als Prasenztext anzeigen funktioniert nicht 2025-07-01 TeamDesk verursacht Absturz des Servers 2025-07-02 VDirAdapterNotesPrivate logging improved 2025-07-03 Date Header fehlt bei Mailversand 2025-07-06 AdminUI Hotline Konfig - Maximale Anzahl von Anrufen wird nicht korrekt Ã¼bernommen 2025-07-08 CallCenter StaticDiversion with phone number and extraction for OSB 2025-07-10 Teamdesk forwarding fix 2025-07-11 business hours not displaying properly 2025-07-15 TeamDesk - JournaleintrÃ¤ge fÃ¼r alle Agenten 2025-07-18 Multiple consultation requests for softphone 2025-07-28 Erweitertes Logging VDir Lizenzen 2025-08-05 Seltener Eventlogs bei beendeten XPhone Server aber laufenden IIS Webanwendungen  EN Cumulative patch. Contains the following patches:  2025-06-05 Lizenzanzeige korrigiert 2025-06-30 Betrefftext als Prasenztext anzeigen funktioniert nicht 2025-07-01 TeamDesk verursacht Absturz des Servers 2025-07-02 VDirAdapterNotesPrivate logging improved 2025-07-03 Date Header fehlt bei Mailversand 2025-07-06 AdminUI Hotline Konfig - Maximale Anzahl von Anrufen wird nicht korrekt Ã¼bernommen 2025-07-08 CallCenter StaticDiversion with phone number and extraction for OSB 2025-07-10 Teamdesk forwarding fix 2025-07-11 business hours not displaying properly 2025-07-15 TeamDesk - JournaleintrÃ¤ge fÃ¼r alle Agenten 2025-07-18 Multiple consultation requests for softphone 2025-07-28 Erweitertes Logging VDir Lizenzen 2025-08-05 Seltener Eventlogs bei beendeten XPhone Server aber laufenden IIS Webanwendungen </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-08-13_Sammel-Patch_05-06-2025_-_05-08-2025_xphone_9.8.69.exe</downloadlink>
   </patch>
 </patches>
