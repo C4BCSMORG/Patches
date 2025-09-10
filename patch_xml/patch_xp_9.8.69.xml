@@ -45,4 +45,13 @@
     <description>DE Deaktiviert die Anrufzustellung Ã¼ber die Rufnummerndurchwahl, wenn eine E164-Nummer empfangen wird. Der Parameter âXccEnableFallbackSearchWhenE164NumberNotFoundâ wurde hinzugefÃ¼gt, um dies fÃ¼r eingehende E164-Anrufe wieder zu aktivieren. Dadurch kann der XCC nach Benutzern nur Ã¼ber die Rufnummerndurchwahl suchen, wenn keine direkte Ãbereinstimmung mit der E164-Nummer gefunden wird. Theoretisch sollte dies nie notwendig sein, kann aber fÃ¼r Telefonanlagen mit eingeschrÃ¤nkten Anrufzustellungsoptionen genutzt werden. EN Disables call delivery by phone number extension when an E164 number is received. Added parameter 'XccEnableFallbackSearchWhenE164NumberNotFound' to enable this again for incoming E164 calls. This enables the XCC to search for users with just the number extension when no direct match for the E164 number is found. In theory this should never be necessary but for PBXs with limited call delivery options this might be used. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-08-14_Wrong_call_delivery_for_multiple_dial_parameters_on_a_single_gateway_xphone_9.8.69.exe</downloadlink>
   </patch>
+    <patch>
+        <name>2025-09-09 CPBX - Keine Verbindung nach Cloud PBX Update</name>
+        <version>9.8.126.126</version>
+        <files>
+            <file>BroadsoftPbx.dll</file>
+        </files>
+        <description>DE Nach dem Update der Clound PBX Platform wird das HTTP-Feature "Chunked transfer encoding" nicht mehr unterstÃ¼tzt. Bei Betrieb Ã¼ber einen internen Proxy-Server kann es noch notwendig sein das Feature wieder zu aktivieren. Dazu die PBX-Sondereinstellung Name: BSConnectionFlags Wert: 0x1 aktivieren.  EN After updating the Clound PBX Platform, the HTTP feature âChunked transfer encodingâ is no longer supported. When operating via an internal proxy server, it may still be necessary to reactivate the feature. To do this, activate the special PBX setting Name: BSConnectionFlags Value: 0x1. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-09_CPBX_-_Keine_Verbindung_nach_Cloud_PBX_Update_xphone_9.8.69.exe</downloadlink>
+    </patch>
 </patches>
