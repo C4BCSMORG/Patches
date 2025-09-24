@@ -45,6 +45,16 @@
     <description>DE Deaktiviert die Anrufzustellung Ã¼ber die Rufnummerndurchwahl, wenn eine E164-Nummer empfangen wird. Der Parameter âXccEnableFallbackSearchWhenE164NumberNotFoundâ wurde hinzugefÃ¼gt, um dies fÃ¼r eingehende E164-Anrufe wieder zu aktivieren. Dadurch kann der XCC nach Benutzern nur Ã¼ber die Rufnummerndurchwahl suchen, wenn keine direkte Ãbereinstimmung mit der E164-Nummer gefunden wird. Theoretisch sollte dies nie notwendig sein, kann aber fÃ¼r Telefonanlagen mit eingeschrÃ¤nkten Anrufzustellungsoptionen genutzt werden. EN Disables call delivery by phone number extension when an E164 number is received. Added parameter 'XccEnableFallbackSearchWhenE164NumberNotFound' to enable this again for incoming E164 calls. This enables the XCC to search for users with just the number extension when no direct match for the E164 number is found. In theory this should never be necessary but for PBXs with limited call delivery options this might be used. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-08-14_Wrong_call_delivery_for_multiple_dial_parameters_on_a_single_gateway_xphone_9.8.69.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2025-08-18 Prevention of duplicate SIP call creation</name>
+    <version>9.8.122.122</version>
+    <files>
+      <file>FsSipPbx.dll</file>
+      <file>SipB2Bua.dll</file>
+    </files>
+    <description>DE Verhindert dass multiple SIP Anrufe gestartet werden kÃ¶nnen wenn sich ein Anruf noch im Rufaufbau befindet. EN Prevents multiple SIP calls from being initiated while a call is still being established. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-08-18_Prevention_of_duplicate_SIP_call_creation_xphone_9.8.69.exe</downloadlink>
+  </patch>
     <patch>
         <name>2025-09-09 CPBX - Keine Verbindung nach Cloud PBX Update</name>
         <version>9.8.126.126</version>
