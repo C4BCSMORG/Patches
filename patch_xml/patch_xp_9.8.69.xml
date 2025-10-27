@@ -64,4 +64,22 @@
         <description>DE Nach dem Update der Clound PBX Platform wird das HTTP-Feature "Chunked transfer encoding" nicht mehr unterstÃ¼tzt. Bei Betrieb Ã¼ber einen internen Proxy-Server kann es noch notwendig sein das Feature wieder zu aktivieren. Dazu die PBX-Sondereinstellung Name: BSConnectionFlags Wert: 0x1 aktivieren.  EN After updating the Clound PBX Platform, the HTTP feature âChunked transfer encodingâ is no longer supported. When operating via an internal proxy server, it may still be necessary to reactivate the feature. To do this, activate the special PBX setting Name: BSConnectionFlags Value: 0x1. </description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-09_CPBX_-_Keine_Verbindung_nach_Cloud_PBX_Update_xphone_9.8.69.exe</downloadlink>
     </patch>
+	<patch>
+    <name>2025-09-10 Server bleibt beim Herunterfahren hängen</name>
+    <version>9.8.127.1129</version>
+    <files>
+      <file>FederationModule.dll</file>
+    </files>
+    <description>DE Dieser Patch behebt einen sporadischen Fehler, bei dem das vollstÃ¤ndige Herunterfahren des Servers verhindert wurde. EN This patch fixes a sporadic bug that prevented the server from shutting down completely. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-10_Server_bleibt_beim_Herunterfahren_haengen_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2025-09-11 Performance Optimierung beim Verschieben von Usern</name>
+    <version>9.8.129.1132</version>
+    <files>
+      <file>ConfigModule.dll</file>
+    </files>
+    <description>DE Dieser Patch reduziert beim Verschieben von Benutzern unnÃ¶tige interne Signalisierungen. EN This patch reduces unnecessary internal signaling when moving users. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-11_Performance_Optimierung_beim_Verschieben_von_Usern_xphone_9.8.69.exe</downloadlink>
+  </patch>
 </patches>
