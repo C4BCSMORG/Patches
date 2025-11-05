@@ -82,4 +82,13 @@
     <description>DE Dieser Patch reduziert beim Verschieben von Benutzern unnÃ¶tige interne Signalisierungen. EN This patch reduces unnecessary internal signaling when moving users. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-11_Performance_Optimierung_beim_Verschieben_von_Usern_xphone_9.8.69.exe</downloadlink>
   </patch>
+    <patch>
+        <name>2025-10-16 Backupmanager unterstützt Wiederherstellung im Hintergrund</name>
+        <version>9.8.138.1142</version>
+        <files>
+            <file>XPhoneServerBackup.exe</file>
+        </files>
+        <description>DE Dieser Patch fÃ¼gt dem XPhone Backupmanager eine Kommandozeilen-Option /restoreLatest hinzu. Diese stellt automatisch das aktuellste Backup im Backup-Verzeichnis wieder her. Diese Option kann ich HochverfÃ¼gbarkeits-Szenarien verwendet werden, um einen Standby-Server automatisiert zu aktualisieren.  ZusÃ¤tzlich werden nach einer Wiederherstellung automatisch alle Installer Dlls ausgefÃ¼hrt, damit das Einspielen von Backups auf Servern leicht unterschiedlicher Versionen weniger fehleranfÃ¤llig ist. EN This patch adds a command line option /restoreLatest to the XPhone Backup Manager. This automatically restores the latest backup in the backup directory. This option can be used in high-availability scenarios to automatically update a standby server.  In addition, after a restore, all installer DLLs are automatically executed so that importing backups to servers with slightly different versions is less prone to errors.</description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-10-16_Backupmanager_unterstuetzt_Wiederherstellung_im_Hintergrund_xphone_9.8.69.exe</downloadlink>
+    </patch>
 </patches>
