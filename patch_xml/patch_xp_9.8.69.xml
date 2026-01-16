@@ -55,6 +55,16 @@
     <description>DE Verhindert dass multiple SIP Anrufe gestartet werden kÃ¶nnen wenn sich ein Anruf noch im Rufaufbau befindet. EN Prevents multiple SIP calls from being initiated while a call is still being established. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-08-18_Prevention_of_duplicate_SIP_call_creation_xphone_9.8.69.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2025-09-02 Syslog download fix</name>
+    <version>0.2.0.0</version>
+    <files>
+      <file>Linux\SatelliteBridge\satellite-bridge.deb</file>
+      <file>Linux\SatelliteBridge\satellite-bridge.deb.info</file>
+    </files>
+    <description>DE Stellt die MÃ¶glichkeit wieder her in der AdminoberflÃ¤che system logs fÃ¼r einen Satelliten herunterzuladen. EN Restores the option to download system logs for a satellite in the admin interface. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-02_Syslog_download_fix_xphone_9.8.69.exe</downloadlink>
+  </patch>
     <patch>
         <name>2025-09-09 CPBX - Keine Verbindung nach Cloud PBX Update</name>
         <version>9.8.126.126</version>
@@ -82,6 +92,16 @@
     <description>DE Dieser Patch reduziert beim Verschieben von Benutzern unnÃ¶tige interne Signalisierungen. EN This patch reduces unnecessary internal signaling when moving users. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-11_Performance_Optimierung_beim_Verschieben_von_Usern_xphone_9.8.69.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2025-09-24 Softphone+AnyDevice - Erweiterte Einstellung EnableHoldHangupBeep</name>
+    <version>9.8.129.1129</version>
+    <files>
+      <file>FreeSwitchPbxLib.dll</file>
+      <file>FsSipPbx.dll</file>
+    </files>
+    <description>DE Mit diesem Patch wird die erweiterte Einstellung "EnableHoldHangupBeep" bei SIP-Gateways hinzugefÃ¼gt. Diese steht per Default auf "true".  True: Legt der Partner auf, wÃ¤hrend er einen selbst hÃ¤lt, bekommt man einen Beep-Ton vorgespielt und man muss selbst auflegen. False: Legt der Partner auf, wÃ¤hrend er einen selbst hÃ¤lt, wird automatisch auch bei einem selbst aufgelegt. EN This patch adds the advanced setting EnableHoldHangupBeep for SIP gateways. This is set to true by default.  True: If the other party hangs up while holding you, you will hear a beep and must hang up yourself.  False: If the other party hangs up while holding you, you will also be automatically disconnected. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-24_Softphone_AnyDevice_-_Erweiterte_Einstellung_EnableHoldHangupBeep_xphone_9.8.69.exe</downloadlink>
+  </patch>
     <patch>
         <name>2025-10-16 Backupmanager unterstützt Wiederherstellung im Hintergrund</name>
         <version>9.8.138.1142</version>
@@ -91,4 +111,29 @@
         <description>DE Dieser Patch fÃ¼gt dem XPhone Backupmanager eine Kommandozeilen-Option /restoreLatest hinzu. Diese stellt automatisch das aktuellste Backup im Backup-Verzeichnis wieder her. Diese Option kann ich HochverfÃ¼gbarkeits-Szenarien verwendet werden, um einen Standby-Server automatisiert zu aktualisieren.  ZusÃ¤tzlich werden nach einer Wiederherstellung automatisch alle Installer Dlls ausgefÃ¼hrt, damit das Einspielen von Backups auf Servern leicht unterschiedlicher Versionen weniger fehleranfÃ¤llig ist. EN This patch adds a command line option /restoreLatest to the XPhone Backup Manager. This automatically restores the latest backup in the backup directory. This option can be used in high-availability scenarios to automatically update a standby server.  In addition, after a restore, all installer DLLs are automatically executed so that importing backups to servers with slightly different versions is less prone to errors.</description>
         <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-10-16_Backupmanager_unterstuetzt_Wiederherstellung_im_Hintergrund_xphone_9.8.69.exe</downloadlink>
     </patch>
+  <patch>
+    <name>2025-11-05 VDirAdapterNotesPubProcess  Method not found exception fix improved</name>
+    <version>9.8.140.1143</version>
+    <files>
+      <file>VDirAdapterNotesCommon.dll</file>
+      <file>VDirAdapterNotesPrivEngine.dll</file>
+      <file>VDirAdapterNotesPrivProcess.exe</file>
+      <file>VDirAdapterNotesPubEngine.dll</file>
+      <file>VDirAdapterNotesPubProcess.exe</file>
+    </files>
+    <description>DE Dieser Patch behebt eine: Methode nicht gefunden - Exception in VDirAdapterNotesPubProcess.exe. EN This patch fixes a method not found exception in VDirAdapterNotesPubProcess.exe. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-11-05_VDirAdapterNotesPubProcess__Method_not_found_exception_fix_improved_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2025-12-17 improvement by sending pushes</name>
+    <version>9.8.164.164</version>
+    <files>
+      <file>PushNotificationsModule.dll</file>
+      <file>PushProxy\appsettings.json.install</file>
+      <file>PushProxy\PushNotificationsProxy.dll</file>
+      <file>PushProxy\PushNotificationsProxyInstaller9.dll</file>
+    </files>
+    <description>DE Die Zertifikatsabfrage fÃ¼r Push-Benachrichtigungen funktioniert nun zuverlÃ¤ssig. Eingehende Anrufe werden durch die Implementierung von "Silent Wake-Up Pushes" zuverlÃ¤ssiger signalisiert.  Dies stellt sicher, dass Anrufe auch bei inaktiven Apps prompt zugestellt werden. EN Certificate validation for push notifications now works reliably Incoming calls are now signaled more reliably through the implementation of "silent wake-up pushes".  This ensures that calls are promptly delivered even when the app is inactive. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-12-17_improvement_by_sending_pushes_xphone_9.8.69.exe</downloadlink>
+  </patch>
 </patches>
