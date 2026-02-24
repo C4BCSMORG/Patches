@@ -136,4 +136,17 @@
     <description>DE Die Zertifikatsabfrage fÃ¼r Push-Benachrichtigungen funktioniert nun zuverlÃ¤ssig. Eingehende Anrufe werden durch die Implementierung von "Silent Wake-Up Pushes" zuverlÃ¤ssiger signalisiert.  Dies stellt sicher, dass Anrufe auch bei inaktiven Apps prompt zugestellt werden. EN Certificate validation for push notifications now works reliably Incoming calls are now signaled more reliably through the implementation of "silent wake-up pushes".  This ensures that calls are promptly delivered even when the app is inactive. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-12-17_improvement_by_sending_pushes_xphone_9.8.69.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2026-02-09 Satellite OpenSSL version increase</name>
+    <version>9.8.180.180</version>
+    <files>
+      <file>SatelliteManagementModule.dll</file>
+      <file>Linux\SatelliteBridge\C4BFreeswitch.zip.info.install</file>
+      <file>Linux\SatelliteBridge\C4BFreeswitch.zip.install</file>
+      <file>Linux\SatelliteBridge\openssl-custom.deb.info.install</file>
+      <file>Linux\SatelliteBridge\openssl-custom.deb.install</file>
+    </files>
+    <description>DE Aktualisiert die OpenSSL-Version des Satelliten auf 3.0.19. EN Updates satellite openssl version to 3.0.19. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2026-02-09_Satellite_OpenSSL_version_increase_xphone_9.8.69.exe</downloadlink>
+  </patch>
 </patches>

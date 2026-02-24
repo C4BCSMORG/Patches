@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patches>
+  <patch>
+    <name>2026-02-09 Satellite fixes for firewall</name>
+    <version>10.0.557.557</version>
+    <files>
+      <file>TelephonyCltExport.dll</file>
+      <file>TelephonyModule.dll</file>
+    </files>
+    <description>DE Firewall Regel fÃ¼r "SIP Gateway - B2Bua" am Satelliten war vertauscht. Die Regel wird wieder korrekt in die nftables vom Satelliten geschrieben. EN Firewall rule for âSIP Gateway - B2Buaâ on the satellite was reversed. The rule is now written correctly to the satellite's nftables. </description>
+    <downloadlink>https://patches.c4b.de/V10.0.530/server/2026-02-09_Satellite_fixes_for_firewall_xphone_10.0.530.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2026-02-09 Satellite OpenSSL version increase</name>
+    <version>10.0.558.558</version>
+    <files>
+      <file>SatelliteManagementModule.dll</file>
+      <file>Linux\SatelliteBridge\C4BFreeswitch.zip.info.install</file>
+      <file>Linux\SatelliteBridge\C4BFreeswitch.zip.install</file>
+      <file>Linux\SatelliteBridge\openssl-custom.deb.info.install</file>
+      <file>Linux\SatelliteBridge\openssl-custom.deb.install</file>
+    </files>
+    <description>DE Aktualisiert die OpenSSL-Version des Satelliten auf 3.0.19. EN Updates satellite openssl version to 3.0.19. </description>
+    <downloadlink>https://patches.c4b.de/V10.0.530/server/2026-02-09_Satellite_OpenSSL_version_increase_xphone_10.0.530.exe</downloadlink>
+  </patch>
+</patches>
