@@ -7,7 +7,7 @@
       <file>TelephonyCltExport.dll</file>
       <file>TelephonyModule.dll</file>
     </files>
-    <description>DE Firewall Regel fÃ¼r "SIP Gateway - B2Bua" am Satelliten war vertauscht. Die Regel wird wieder korrekt in die nftables vom Satelliten geschrieben. EN Firewall rule for âSIP Gateway - B2Buaâ on the satellite was reversed. The rule is now written correctly to the satellite's nftables. </description>
+    <description>DE Firewall Regel fÃ¼r "SIP Gateway-B2Bua" am Satelliten war vertauscht. Die Regel wird wieder korrekt in die nftables vom Satelliten geschrieben. EN Firewall rule for âSIP Gateway - B2Buaâ on the satellite was reversed. The rule is now written correctly to the satellite's nftables. </description>
     <downloadlink>https://patches.c4b.de/V10.0.530/server/2026-02-09_Satellite_fixes_for_firewall_xphone_10.0.530.exe</downloadlink>
   </patch>
   <patch>
