@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patches>
+  <patch>
+    <name>2026-03-25 VDir Datenquelle AD Attribute in Lower Case</name>
+    <version>10.0.578.1579</version>
+    <files>
+      <file>VDirAdapterLDAPEngineCommon.dll</file>
+    </files>
+    <description>DE Dieser Patch behebt das Problem, dass AD Attribute bei der Schemaermittlung in lower case geliefert werden. EN This patch fixes the issue where AD attributes are delivered in lower case during schema determination. </description>
+    <downloadlink>https://patches.c4b.de/V10.0.576/server/2026-03-25_VDir_Datenquelle_AD_Attribute_in_Lower_Case_xphone_10.0.576.exe</downloadlink>
+  </patch>
+</patches>

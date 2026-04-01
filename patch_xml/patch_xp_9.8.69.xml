@@ -149,4 +149,13 @@
     <description>DE Aktualisiert die OpenSSL-Version des Satelliten auf 3.0.19. EN Updates satellite openssl version to 3.0.19. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2026-02-09_Satellite_OpenSSL_version_increase_xphone_9.8.69.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2026-03-09 VDir Datenquelle AD Attribute in Lower Case</name>
+    <version>9.8.183.1191</version>
+    <files>
+      <file>VDirAdapterLDAPEngineCommon.dll</file>
+    </files>
+    <description>DE Dieser Patch behebt das Problem, dass AD Attribute bei der Schemaermittlung in lower case geliefert werden. EN This patch fixes the issue where AD attributes are delivered in lower case during schema determination. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2026-03-09_VDir_Datenquelle_AD_Attribute_in_Lower_Case_xphone_9.8.69.exe</downloadlink>
+  </patch>
 </patches>
