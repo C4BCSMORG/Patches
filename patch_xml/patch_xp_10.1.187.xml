@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patches>
+  <patch>
+    <name>2026-07-23 Softphone now works with multiple non ASCII characters</name>
+    <version>10.1.194.0</version>
+    <files>
+      <file>FsSipPbx.dll</file>
+      <file>SipB2Bua.dll</file>
+      <file>SIPSorcery.dll</file>
+    </files>
+    <description>DE Softphone Anrufe zwischen XPhone Nutzern mit mehr als einem Sonderzeichen im Namen funktionieren nun EN Softphone calls between XPhone users with more than one special character in their names now work</description>
+    <downloadlink>https://patches.c4b.de/V10.1.187/server/2026-07-23_softphone_now_works_with_multiple_non_ascii_characters_xphone_10.1.187.0.exe</downloadlink>
+  </patch>
+</patches>
