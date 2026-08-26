@@ -2,7 +2,7 @@
 <patches>
   <patch>
     <name>2026-07-23 Softphone now works with multiple non ASCII characters</name>
-    <version>10.1.194.0</version>
+    <version>10.1.194.194</version>
     <files>
       <file>FsSipPbx.dll</file>
       <file>SipB2Bua.dll</file>
