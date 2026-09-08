@@ -12,7 +12,7 @@
     <downloadlink>https://patches.c4b.de/V10.1.187/server/2026-07-23_softphone_now_works_with_multiple_non_ascii_characters_xphone_10.1.187.0.exe</downloadlink>
   </patch>
   <patch>
-    <name>2026-08-28 TeamDesk-Abwurf &amp; Softphone-Besetzt Fix</name>
+    <name>2026-08-28 TeamDesk-Abwurf und Softphone-Besetzt Fix</name>
     <version>10.1.206.206</version>
     <files>
       <file>FsSipPbx.dll</file>
