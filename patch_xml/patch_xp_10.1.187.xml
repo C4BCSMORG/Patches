@@ -9,7 +9,7 @@
       <file>SIPSorcery.dll</file>
     </files>
     <description>DE Softphone Anrufe zwischen XPhone Nutzern mit mehr als einem Sonderzeichen im Namen funktionieren nun EN Softphone calls between XPhone users with more than one special character in their names now work</description>
-    <downloadlink>hhttps://github.com/C4BCSMORG/Patches/raw/main/V10.1.187/2026-07-23_softphone_now_works_with_multiple_non_ascii_characters_xphone_10.1.187.0.exe</downloadlink>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V10.1.187/2026-07-23_softphone_now_works_with_multiple_non_ascii_characters_xphone_10.1.187.0.exe</downloadlink>
   </patch>
   <patch>
     <name>2026-08-28 TeamDesk-Abwurf und Softphone-Besetzt Fix</name>
