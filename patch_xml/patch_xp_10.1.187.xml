@@ -9,7 +9,7 @@
       <file>SIPSorcery.dll</file>
     </files>
     <description>DE Softphone Anrufe zwischen XPhone Nutzern mit mehr als einem Sonderzeichen im Namen funktionieren nun EN Softphone calls between XPhone users with more than one special character in their names now work</description>
-    <downloadlink>https://patches.c4b.de/V10.1.187/server/2026-07-23_softphone_now_works_with_multiple_non_ascii_characters_xphone_10.1.187.0.exe</downloadlink>
+    <downloadlink>hhttps://github.com/C4BCSMORG/Patches/raw/main/V10.1.187/2026-07-23_softphone_now_works_with_multiple_non_ascii_characters_xphone_10.1.187.0.exe</downloadlink>
   </patch>
   <patch>
     <name>2026-08-28 TeamDesk-Abwurf und Softphone-Besetzt Fix</name>
@@ -21,7 +21,7 @@
       <file>Freeswitch-xcc-core.deb.install</file>
     </files>
     <description>DE Voraussetzung: 2026-07-23 Softphone now works with multiple non ASCII characters  Dieser Patch behebt zwei Verhalten. 1) Wird als Abwurfziel in TeamDesk die Rufnummer eines Benutzers mit AnyDevice-Only eingegeben und hat dieser Benutzer ein permanente Weiterleitung an einen anderen Teilnehmer konfiguriert, dann schlÃ¤gt der Abwurf fehl und der Anrufer wird getrennt. Dieses Verhalten ist nun behoben. Bekannte EinschrÃ¤nkungen: Der Call wird zwar zugestellt, aber nicht im Journal gefÃ¼hrt. HÃ¶chstwahrscheinlich wird er daher auch nicht in Analytics gefÃ¼hrt. Die Ursache dafÃ¼r ist das Journal-Konzept fÃ¼r Anrufe aus einem TeamDesk, um doppelte JournaleintrÃ¤ge zu vermeiden. Wir werden hier intern klÃ¤ren, wie dieses Verhalten gelÃ¶st werden kann. 2) Obwohl bei dem Softphone Besetzt-Verhalten "Abweisen" konfiguriert ist, klopften Zweitanrufer trotzdem an. Dieses Verhalten ist nun behoben. EN Required: 2026-07-23 Softphone now works with multiple non ASCII characters  This patch resolves two issues. 1) If a user’s phone number with “AnyDevice-Only” is entered as a drop-off target in TeamDesk and that user has configured permanent call forwarding to another subscriber, the drop-off fails and the caller is disconnected. This issue has now been resolved. Known Limitations: Although the call is delivered, it is not logged in the call log. As a result, it most likely will not be tracked in Analytics either. This is due to the call log design for calls originating from TeamDesk, which is intended to prevent duplicate log entries. We will investigate internally to determine how this behavior can be resolved. 2) Although the “Reject” option was configured for the softphone’s busy behavior, second callers were still able to get through. This behavior has now been fixed.</description>
-    <downloadlink>https://patches.c4b.de/V10.1.187/server/2026-08-28_teamdesk-abwurf__softphone-besetzt_fix_xphone_10.1.187.0.exe</downloadlink>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V10.1.187/2026-08-28_teamdesk-abwurf__softphone-besetzt_fix_xphone_10.1.187.0.exe</downloadlink>
   </patch>
   <patch>
     <name>2026-08-28 MCP und SuperUser-API Lizenzierung</name>
@@ -32,6 +32,6 @@
       <file>XPhoneUnifiedModule.dll</file>
     </files>
     <description>DE MCP und SuperUser-API benÃ¶tigen eine gÃ¼ltige, nicht abgelaufene MCP-Lizenz plus einen zweiten Faktor: Up2Date (Kauf), Demo- oder Abo-Lizenz. Bei Demo- und Abo-Lizenzen ist kein Up2Date nÃ¶tig, bei Kauflizenzen weiterhin schon. Fix: Abgelaufene Demo-/Abo-Lizenzen werden jetzt korrekt abgewiesen. EN MCP and the SuperUser API require a valid, unexpired MCP license plus a second factor: Up2Date (purchased), a demo license, or a subscription license. Up2Date is not required for demo and subscription licenses, but it is still required for purchased licenses. Fixed: Expired demo/subscription licenses are now correctly rejected.</description>
-    <downloadlink>https://patches.c4b.de/V10.1.187/server/2026-09-01_mcp_und_superuser-api_lizenzierung_xphone_10.1.187.0.exe</downloadlink>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V10.1.187/2026-09-01_mcp_und_superuser-api_lizenzierung_xphone_10.1.187.0.exe</downloadlink>
   </patch>
 </patches>
