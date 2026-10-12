@@ -40,7 +40,7 @@
     <files>
       <file>FsSipPbx.dll</file>
     </files>
-    <description>DE Voraussetzungen:  - 2026-07-23 Softphone now works with multiple non ASCII characters - 2026-08-2 TeamDesk-Abwurf und Softphone-Besetzt Fix   Das Problem, dass AnyDevice-Journal-EintrÃ¤ge fehlten, wenn die Weiterleitung aktiviert war, wurde behoben EN Required: - 2026-07-23 Softphone now works with multiple non ASCII characters - 2026-08-2 TeamDesk-Abwurf und Softphone-Besetzt Fix   Fixed missing AnyDevice Journal entries when forwarding is enabled</description>
+    <description>DE Voraussetzungen:  - 2026-07-23 Softphone now works with multiple non ASCII characters - 2026-08-28 TeamDesk-Abwurf und Softphone-Besetzt Fix   Das Problem, dass AnyDevice-Journal-EintrÃ¤ge fehlten, wenn die Weiterleitung aktiviert war, wurde behoben EN Required: - 2026-07-23 Softphone now works with multiple non ASCII characters - 2026-08-28 TeamDesk-Abwurf und Softphone-Besetzt Fix   Fixed missing AnyDevice Journal entries when forwarding is enabled</description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V10.1.187/2026-09-15_fixed_missing_anydevice_journal_entries_when_forwarding_is_active_xphone_10.1.187.0.exe</downloadlink>
   </patch>
 </patches>
