@@ -34,4 +34,13 @@
     <description>DE MCP und SuperUser-API benÃ¶tigen eine gÃ¼ltige, nicht abgelaufene MCP-Lizenz plus einen zweiten Faktor: Up2Date (Kauf), Demo- oder Abo-Lizenz. Bei Demo- und Abo-Lizenzen ist kein Up2Date nÃ¶tig, bei Kauflizenzen weiterhin schon. Fix: Abgelaufene Demo-/Abo-Lizenzen werden jetzt korrekt abgewiesen. EN MCP and the SuperUser API require a valid, unexpired MCP license plus a second factor: Up2Date (purchased), a demo license, or a subscription license. Up2Date is not required for demo and subscription licenses, but it is still required for purchased licenses. Fixed: Expired demo/subscription licenses are now correctly rejected.</description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V10.1.187/2026-09-01_mcp_und_superuser-api_lizenzierung_xphone_10.1.187.0.exe</downloadlink>
   </patch>
+  <patch>
+    <name>2026-09-15 Fixed missing AnyDevice Journal entries when forwarding is active</name>
+    <version>10.1.213.213</version>
+    <files>
+      <file>FsSipPbx.dll</file>
+    </files>
+    <description>DE Voraussetzungen:  - 2026-07-23 Softphone now works with multiple non ASCII characters - 2026-08-2 TeamDesk-Abwurf und Softphone-Besetzt Fix  Das Problem, dass AnyDevice-Journal-EintrÃ¤ge fehlten, wenn die Weiterleitung aktiviert war, wurde behoben EN Required: - 2026-07-23 Softphone now works with multiple non ASCII characters - 2026-08-2 TeamDesk-Abwurf und Softphone-Besetzt Fix  Fixed missing AnyDevice Journal entries when forwarding is enabled</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V10.1.187/2026-09-15_fixed_missing_anydevice_journal_entries_when_forwarding_is_active_xphone_10.1.187.0.exe</downloadlink>
+  </patch>
 </patches>
