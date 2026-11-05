@@ -30,7 +30,7 @@
       <file>IVPrinterNotifyBI.dll</file>
       <file>UMSCOMClient.dll</file>
     </files>
-    <description>DE Dieser Patch behebt einen Fehler, durch den der IVMail2Fax-Dienst nicht mehr funktionierte, da die BlackIce-Drucker-Pipes nicht geschlossen wurden. Dieser Patch enthÃ¤lt Korrekturen für einige MIME-DLLs. EN This patch fixes an error where IVMail2Fax service stopped working due to failure to close BlackIce printer pipes. This patch includes fixes of some mime dll's.</description>
+    <description>DE Dieser Patch behebt einen Fehler, durch den der IVMail2Fax-Dienst nicht mehr funktionierte, da die BlackIce-Drucker-Pipes nicht geschlossen wurden. Dieser Patch enthÃ¤lt Korrekturen fÃ¼r einige MIME-DLLs. EN This patch fixes an error where IVMail2Fax service stopped working due to failure to close BlackIce printer pipes. This patch includes fixes of some mime dll's.</description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V10.0.576/2026-09-28_ivmail2fax_faxerstellung_funktioniert_nicht_mehr_ext_fix2_xphone_10.0.576.0.exe</downloadlink>
   </patch>
 </patches>
