@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patches>
+  <patch>
+    <name>2025-08-13 Sammel-Patch 05-06-2025 - 05-08-2025</name>
+    <version>9.8.70.1070</version>
+    <files>
+      <file>Atlas.dll</file>
+      <file>AtlasLicense.dll</file>
+      <file>AtlasSrvExport.dll</file>
+      <file>AtlasTeamDesk.dll</file>
+      <file>AtlasUser.dll</file>
+      <file>CallCenterModule.dll</file>
+      <file>ClientConfigSrvExport.dll</file>
+      <file>ConfigModule.dll</file>
+      <file>ConfigTelephony.dll</file>
+      <file>FsSipPbx.dll</file>
+      <file>MessageStoreModule.dll</file>
+      <file>TelephonyJournalModule.dll</file>
+      <file>UserPresenceModule.dll</file>
+      <file>VDirAdapterNotesCommon.dll</file>
+      <file>VDirAdapterNotesPrivEngine.dll</file>
+      <file>VDirAdapterNotesPrivProcess.exe</file>
+      <file>VDirModule.dll</file>
+      <file>Linux\SatelliteBridge\Freeswitch-xcc-core.deb</file>
+      <file>Linux\SatelliteBridge\Freeswitch-xcc-core.deb.info</file>
+      <file>WebClientApi\ClientApi.dll</file>
+      <file>WebClientApi\ClientApi.exe</file>
+      <file>WebConfiguration\bin\WebConfigurationLicense.dll</file>
+      <file>WebConfiguration\bin\WebConfigurationTelephony.dll</file>
+      <file>XCC\mod\managedcore\mod_managedC4B_Core.dll</file>
+      <file>AtlasCltExport.dll</file>
+    </files>
+    <description>DE Sammel-Patch. EnthÃ¤lt die folgenden Patches:  - 2025-06-05 Lizenzanzeige korrigiert - 2025-06-30 Betrefftext als Prasenztext anzeigen funktioniert nicht - 2025-07-01 TeamDesk verursacht Absturz des Servers - 2025-07-02 VDirAdapterNotesPrivate logging improved - 2025-07-03 Date Header fehlt bei Mailversand - 2025-07-06 AdminUI Hotline Konfig-Maximale Anzahl von Anrufen wird nicht korrekt Ã¼bernommen - 2025-07-08 CallCenter StaticDiversion with phone number and extraction for OSB - 2025-07-10 Teamdesk forwarding fix - 2025-07-11 business hours not displaying properly - 2025-07-15 TeamDesk-JournaleintrÃ¤ge fÃ¼r alle Agenten - 2025-07-18 Multiple consultation requests for softphone - 2025-07-28 Erweitertes Logging VDir Lizenzen - 2025-08-05 Seltener Eventlogs bei beendeten XPhone Server aber laufenden IIS Webanwendungen  EN Cumulative patch. Contains the following patches:  - 2025-06-05 Lizenzanzeige korrigiert - 2025-06-30 Betrefftext als Prasenztext anzeigen funktioniert nicht - 2025-07-01 TeamDesk verursacht Absturz des Servers - 2025-07-02 VDirAdapterNotesPrivate logging improved - 2025-07-03 Date Header fehlt bei Mailversand - 2025-07-06 AdminUI Hotline Konfig-Maximale Anzahl von Anrufen wird nicht korrekt Ã¼bernommen - 2025-07-08 CallCenter StaticDiversion with phone number and extraction for OSB - 2025-07-10 Teamdesk forwarding fix - 2025-07-11 business hours not displaying properly - 2025-07-15 TeamDesk-JournaleintrÃ¤ge fÃ¼r alle Agenten - 2025-07-18 Multiple consultation requests for softphone - 2025-07-28 Erweitertes Logging VDir Lizenzen - 2025-08-05 Seltener Eventlogs bei beendeten XPhone Server aber laufenden IIS Webanwendungen </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-08-13_Sammel-Patch_05-06-2025_-_05-08-2025_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2025-08-14 Wrong call delivery for multiple dial parameters on a single gateway</name>
+    <version>9.8.121.121</version>
+    <files>
+      <file>FsSipPbx.dll</file>
+      <file>Linux\SatelliteBridge\Freeswitch-xcc-core.deb</file>
+      <file>Linux\SatelliteBridge\Freeswitch-xcc-core.deb.info</file>
+      <file>XCC\mod\managedcore\mod_managedC4B_Core.dll</file>
+    </files>
+    <description>DE Achtung: Bitte lesen Sie folgende Anweisung vor Einspielen des Patches, da bei Telefonanlagen mit eingeschraenkten Anrufzustellungsoptionen die gesamte Telefonie eingeschraenkt werden kann.   Dieser Patch deaktiviert die Anrufzustellung ueber die Rufnummerndurchwahl, wenn eine E164-Nummer empfangen wird. Der Parameter 'XccEnableFallbackSearchWhenE164NumberNotFound' wurde hinzugefuegt, um dies fuer eingehende E164-Anrufe wieder zu aktivieren. Dafuer muss der Parameter in den Erweiterten Einstellungen des SIP Gateways mit dem Wert 'TRUE' gesetzt werden. Dadurch kann der XCC nach Benutzern nur ueber die Rufnummerndurchwahl suchen, wenn keine direkte Uebereinstimmung mit der E164-Nummer gefunden wird. EN Attention: Please read the following instructions before installing the patch, as telephone systems with limited call delivery options may experience restrictions to all telephony functions.   This patch disables call delivery via direct dial numbers when an E164 number is received. The parameter “XccEnableFallbackSearchWhenE164NumberNotFound” has been added to reactivate this for incoming E164 calls. To do this, the parameter must be set to “TRUE” in the advanced settings of the SIP gateway. This allows the XCC to search for users via direct dial numbers only if no direct match with the E164 number is found.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-08-14_Wrong_call_delivery_for_multiple_dial_parameters_on_a_single_gateway_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2025-08-18 Prevention of duplicate SIP call creation</name>
+    <version>9.8.122.122</version>
+    <files>
+      <file>FsSipPbx.dll</file>
+      <file>SipB2Bua.dll</file>
+    </files>
+    <description>DE Verhindert dass multiple SIP Anrufe gestartet werden kÃ¶nnen wenn sich ein Anruf noch im Rufaufbau befindet. EN Prevents multiple SIP calls from being initiated while a call is still being established. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-08-18_Prevention_of_duplicate_SIP_call_creation_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2025-09-02 Syslog download fix</name>
+    <version>0.2.0.0</version>
+    <files>
+      <file>Linux\SatelliteBridge\satellite-bridge.deb</file>
+      <file>Linux\SatelliteBridge\satellite-bridge.deb.info</file>
+    </files>
+    <description>DE Stellt die MÃ¶glichkeit wieder her in der AdminoberflÃ¤che system logs fÃ¼r einen Satelliten herunterzuladen. EN Restores the option to download system logs for a satellite in the admin interface. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-02_Syslog_download_fix_xphone_9.8.69.exe</downloadlink>
+  </patch>
+    <patch>
+        <name>2025-09-09 CPBX - Keine Verbindung nach Cloud PBX Update</name>
+        <version>9.8.126.126</version>
+        <files>
+            <file>BroadsoftPbx.dll</file>
+        </files>
+        <description>DE Nach dem Update der Clound PBX Platform wird das HTTP-Feature "Chunked transfer encoding" nicht mehr unterstÃ¼tzt. Bei Betrieb Ã¼ber einen internen Proxy-Server kann es noch notwendig sein das Feature wieder zu aktivieren. Dazu die PBX-Sondereinstellung Name: BSConnectionFlags Wert: 0x1 aktivieren.  EN After updating the Clound PBX Platform, the HTTP feature âChunked transfer encodingâ is no longer supported. When operating via an internal proxy server, it may still be necessary to reactivate the feature. To do this, activate the special PBX setting Name: BSConnectionFlags Value: 0x1. </description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-09_CPBX_-_Keine_Verbindung_nach_Cloud_PBX_Update_xphone_9.8.69.exe</downloadlink>
+    </patch>
+	<patch>
+    <name>2025-09-10 Server bleibt beim Herunterfahren hängen</name>
+    <version>9.8.127.1129</version>
+    <files>
+      <file>FederationModule.dll</file>
+    </files>
+    <description>DE Dieser Patch behebt einen sporadischen Fehler, bei dem das vollstÃ¤ndige Herunterfahren des Servers verhindert wurde. EN This patch fixes a sporadic bug that prevented the server from shutting down completely. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-10_Server_bleibt_beim_Herunterfahren_haengen_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2025-09-11 Performance Optimierung beim Verschieben von Usern</name>
+    <version>9.8.129.1132</version>
+    <files>
+      <file>ConfigModule.dll</file>
+    </files>
+    <description>DE Dieser Patch reduziert beim Verschieben von Benutzern unnÃ¶tige interne Signalisierungen. EN This patch reduces unnecessary internal signaling when moving users. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-11_Performance_Optimierung_beim_Verschieben_von_Usern_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2025-09-24 Softphone+AnyDevice - Erweiterte Einstellung EnableHoldHangupBeep</name>
+    <version>9.8.129.1129</version>
+    <files>
+      <file>FreeSwitchPbxLib.dll</file>
+      <file>FsSipPbx.dll</file>
+    </files>
+    <description>DE Mit diesem Patch wird die erweiterte Einstellung "EnableHoldHangupBeep" bei SIP-Gateways hinzugefÃ¼gt. Diese steht per Default auf "true".  True: Legt der Partner auf, wÃ¤hrend er einen selbst hÃ¤lt, bekommt man einen Beep-Ton vorgespielt und man muss selbst auflegen. False: Legt der Partner auf, wÃ¤hrend er einen selbst hÃ¤lt, wird automatisch auch bei einem selbst aufgelegt. EN This patch adds the advanced setting EnableHoldHangupBeep for SIP gateways. This is set to true by default.  True: If the other party hangs up while holding you, you will hear a beep and must hang up yourself.  False: If the other party hangs up while holding you, you will also be automatically disconnected. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-09-24_Softphone_AnyDevice_-_Erweiterte_Einstellung_EnableHoldHangupBeep_xphone_9.8.69.exe</downloadlink>
+  </patch>
+    <patch>
+        <name>2025-10-16 Backupmanager unterstützt Wiederherstellung im Hintergrund</name>
+        <version>9.8.138.1142</version>
+        <files>
+            <file>XPhoneServerBackup.exe</file>
+        </files>
+        <description>DE Dieser Patch fÃ¼gt dem XPhone Backupmanager eine Kommandozeilen-Option /restoreLatest hinzu. Diese stellt automatisch das aktuellste Backup im Backup-Verzeichnis wieder her. Diese Option kann ich HochverfÃ¼gbarkeits-Szenarien verwendet werden, um einen Standby-Server automatisiert zu aktualisieren.  ZusÃ¤tzlich werden nach einer Wiederherstellung automatisch alle Installer Dlls ausgefÃ¼hrt, damit das Einspielen von Backups auf Servern leicht unterschiedlicher Versionen weniger fehleranfÃ¤llig ist. EN This patch adds a command line option /restoreLatest to the XPhone Backup Manager. This automatically restores the latest backup in the backup directory. This option can be used in high-availability scenarios to automatically update a standby server.  In addition, after a restore, all installer DLLs are automatically executed so that importing backups to servers with slightly different versions is less prone to errors.</description>
+        <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-10-16_Backupmanager_unterstuetzt_Wiederherstellung_im_Hintergrund_xphone_9.8.69.exe</downloadlink>
+    </patch>
+  <patch>
+    <name>2025-11-05 VDirAdapterNotesPubProcess  Method not found exception fix improved</name>
+    <version>9.8.140.1143</version>
+    <files>
+      <file>VDirAdapterNotesCommon.dll</file>
+      <file>VDirAdapterNotesPrivEngine.dll</file>
+      <file>VDirAdapterNotesPrivProcess.exe</file>
+      <file>VDirAdapterNotesPubEngine.dll</file>
+      <file>VDirAdapterNotesPubProcess.exe</file>
+    </files>
+    <description>DE Dieser Patch behebt eine: Methode nicht gefunden - Exception in VDirAdapterNotesPubProcess.exe. EN This patch fixes a method not found exception in VDirAdapterNotesPubProcess.exe. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-11-05_VDirAdapterNotesPubProcess__Method_not_found_exception_fix_improved_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2025-12-17 improvement by sending pushes</name>
+    <version>9.8.164.164</version>
+    <files>
+      <file>PushNotificationsModule.dll</file>
+      <file>PushProxy\appsettings.json.install</file>
+      <file>PushProxy\PushNotificationsProxy.dll</file>
+      <file>PushProxy\PushNotificationsProxyInstaller9.dll</file>
+    </files>
+    <description>DE Die Zertifikatsabfrage fÃ¼r Push-Benachrichtigungen funktioniert nun zuverlÃ¤ssig. Eingehende Anrufe werden durch die Implementierung von "Silent Wake-Up Pushes" zuverlÃ¤ssiger signalisiert.  Dies stellt sicher, dass Anrufe auch bei inaktiven Apps prompt zugestellt werden. EN Certificate validation for push notifications now works reliably Incoming calls are now signaled more reliably through the implementation of "silent wake-up pushes".  This ensures that calls are promptly delivered even when the app is inactive. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2025-12-17_improvement_by_sending_pushes_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2026-02-09 Satellite OpenSSL version increase</name>
+    <version>9.8.180.180</version>
+    <files>
+      <file>SatelliteManagementModule.dll</file>
+      <file>Linux\SatelliteBridge\C4BFreeswitch.zip.info.install</file>
+      <file>Linux\SatelliteBridge\C4BFreeswitch.zip.install</file>
+      <file>Linux\SatelliteBridge\openssl-custom.deb.info.install</file>
+      <file>Linux\SatelliteBridge\openssl-custom.deb.install</file>
+    </files>
+    <description>DE Aktualisiert die OpenSSL-Version des Satelliten auf 3.0.19. EN Updates satellite openssl version to 3.0.19. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2026-02-09_Satellite_OpenSSL_version_increase_xphone_9.8.69.exe</downloadlink>
+  </patch>
+  <patch>
+    <name>2026-03-09 VDir Datenquelle AD Attribute in Lower Case</name>
+    <version>9.8.183.1191</version>
+    <files>
+      <file>VDirAdapterLDAPEngineCommon.dll</file>
+    </files>
+    <description>DE Dieser Patch behebt das Problem, dass AD Attribute bei der Schemaermittlung in lower case geliefert werden. EN This patch fixes the issue where AD attributes are delivered in lower case during schema determination. </description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.8.69/2026-03-09_VDir_Datenquelle_AD_Attribute_in_Lower_Case_xphone_9.8.69.exe</downloadlink>
+  </patch>
+</patches>
