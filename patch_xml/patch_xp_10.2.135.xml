@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patches>
+  <patch>
+    <name>2026-11-09 SIP gateway now starts if its port is in use on another IP address</name>
+    <version>10.2.135.0</version>
+    <files>
+      <file>Bin/XCC/mod/managedcore/mod_managedC4B_Core.dll</file>
+      <file>Bin/XCC/mod/managedcore/mod_managedC4B_Core.deps.json</file>
+      <file>Bin/Linux/SatelliteBridge/Freeswitch-xcc-core.deb.info.install</file>
+      <file>Bin/Linux/SatelliteBridge/Freeswitch-xcc-core.deb.install</file>
+    </files>
+    <description>DE Mit diesem Patch starten SIP-Gateways auf XCC-Servern mit mehreren IP-Adressen zuverlässig, auch wenn ihr Port auf einer anderen IP-Adresse des Servers schon belegt ist. Belegen kann ihn ein anderes Gateway oder irgendeine andere Anwendung. EN With this patch, SIP gateways on XCC servers with several IP addresses start reliably, even if their port is already in use on another IP address of the server. It can be in use by another gateway or by any other application.</description>
+    <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V10.2.135/2026-11-09_sip_gateway_now_starts_if_its_port_is_in_use_on_another_ip_address_xphone_10.2.135.0.exe</downloadlink>
+  </patch>
+</patches>
