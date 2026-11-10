@@ -6,7 +6,7 @@
     <files>
       <file>AtlasCltExport.dll</file>
     </files>
-    <description>DE Dieser Patch behebt das Problem, dass nach der Abwesenheit und vor der nÃ¤chsten Ãffnungszeit immer noch die Ansage der Abwesenheit kommt.  EN This patch fixes the problem that the exclusion is still announced after the exclusion and before the next opening time. </description>
+    <description>DE Dieser Patch behebt das Problem, dass nach der Abwesenheit und vor der nächsten Öffnungszeit immer noch die Ansage der Abwesenheit kommt.  EN This patch fixes the problem that the exclusion is still announced after the exclusion and before the next opening time. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-06-25_TeamDesk_-_announcement_after_exclusion_-_fix_xphone_9.0.311.exe</downloadlink>
   </patch>
     <patch>
@@ -24,7 +24,7 @@
       <file>CstaTel.dll</file>
       <file>CstaTel.dll</file>
     </files>
-    <description>DE 1. XCC Satellite: Dieser Patch behebt das Problem: - Dass sporadisch, mit zu strengen Firewall-Regeln ein, oder mehrere SIP Gateways ausgesperrt wurden.         Das Problem trat bis jetzt nur bei Server-Neustarts auf.          Ein Deaktivieren und Aktivieren der betroffenen SIP Gateways hat den Fehlerzustand behoben.  - Dass bei einem XP Server Neustart die Firewall Regeln fÃ¼r den Satellite sporadisch nicht geschrieben werden. - Dass wenn XccUseLocalIpAsFromDomain auf TRUE gesetzt ist, die From Domain des XP Server verwendet wird.   2. Innovaphone: - Optimierung fÃ¼r Single-Line-Mode - Erweiterte MÃ¶glichkeiten fÃ¼r Migration TAPI -&gt; Direkte Anbindung - Korrektur-Mechanisumus fÃ¼r mehrfach identische Anrufumleitungen - Eingehende Anrufe bei mehreren GerÃ¤ten erscheinen im Journal doppelt  3. CSTA: - SSH-Verbindung nicht mÃ¶glich (wird z.B. benÃ¶tigt fÃ¼r Forwarding bei Alcatel OXE)  4. Konnektoren: - Erweiterte MÃ¶glichkeiten beim Verschieben von Benutzern und LÃ¶schen von Leitungen  EN 1. XCC Satellite - That one or more SIP gateways were sporadically locked out with firewall rules that were too strict.        Until now, the problem only occurred when the server was restarted.         Deactivating and activating the affected SIP gateways fixed the error.  - That the firewall rules for the satellite are sporadically not written when the XP server is restarted. - That if XccUseLocalIpAsFromDomain is set to TRUE, the From Domain of the XP Server is used.   2. Innovaphone: - Optimization for single-line mode - Extended options for migration TAPI -&gt; direct connection - Correction mechanism for multiple identical call forwardings - Incoming calls to multiple devices appear twice in the journal  3. CSTA: - SSH connection not possible (e.g. required for forwarding with Alcatel OXE)  4. Connectors: - Extended options for moving users and deleting lines </description>
+    <description>DE 1. XCC Satellite: Dieser Patch behebt das Problem: - Dass sporadisch, mit zu strengen Firewall-Regeln ein, oder mehrere SIP Gateways ausgesperrt wurden.         Das Problem trat bis jetzt nur bei Server-Neustarts auf.          Ein Deaktivieren und Aktivieren der betroffenen SIP Gateways hat den Fehlerzustand behoben.  - Dass bei einem XP Server Neustart die Firewall Regeln für den Satellite sporadisch nicht geschrieben werden. - Dass wenn XccUseLocalIpAsFromDomain auf TRUE gesetzt ist, die From Domain des XP Server verwendet wird.   2. Innovaphone: - Optimierung für Single-Line-Mode - Erweiterte Möglichkeiten für Migration TAPI -&gt; Direkte Anbindung - Korrektur-Mechanisumus für mehrfach identische Anrufumleitungen - Eingehende Anrufe bei mehreren Geräten erscheinen im Journal doppelt  3. CSTA: - SSH-Verbindung nicht möglich (wird z.B. benötigt für Forwarding bei Alcatel OXE)  4. Konnektoren: - Erweiterte Möglichkeiten beim Verschieben von Benutzern und Löschen von Leitungen  EN 1. XCC Satellite - That one or more SIP gateways were sporadically locked out with firewall rules that were too strict.        Until now, the problem only occurred when the server was restarted.         Deactivating and activating the affected SIP gateways fixed the error.  - That the firewall rules for the satellite are sporadically not written when the XP server is restarted. - That if XccUseLocalIpAsFromDomain is set to TRUE, the From Domain of the XP Server is used.   2. Innovaphone: - Optimization for single-line mode - Extended options for migration TAPI -&gt; direct connection - Correction mechanism for multiple identical call forwardings - Incoming calls to multiple devices appear twice in the journal  3. CSTA: - SSH connection not possible (e.g. required for forwarding with Alcatel OXE)  4. Connectors: - Extended options for moving users and deleting lines </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-07-08_Telefonie_Sammelpatch_xphone_9.0.311.exe</downloadlink>
   </patch>
   <patch>
@@ -55,14 +55,14 @@
       <file>PushProxy\System.Collections.Immutable.dll</file>
       <file>PushProxy\System.Management.dll</file>
     </files>
-    <description>DE Pushes Notification in Android verwenden nun proxy settings in Admin OberflÃ¤che  EN Pushes notification in android can use proxy settings in admin ui. </description>
+    <description>DE Pushes Notification in Android verwenden nun proxy settings in Admin Oberfläche  EN Pushes notification in android can use proxy settings in admin ui. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-07-12_Using_proxy_settings_in_Android_Pushes_xphone_9.0.311.exe</downloadlink>
   </patch>  
   <patch>
     <name>2024-07-22 Powershell connector function performance</name>
     <version>9.0.300.1318</version>
     <files />
-    <description>DE Patch um die Performanz der Get-XpConnectors und Set-XpConnectors Funktionen fÃ¼r einzelne Konnektoren zu verbessern. Beispiele: $x = Get-XpConnectors "ConnectorName" Set-XpConnectors $x  EN Patch to improve the performance of the Get-XpConnectors and Set-XpConnectors functions for individual connectors. Examples: $x = Get-XpConnectors âConnectorNameâ Set-XpConnectors $x </description>
+    <description>DE Patch um die Performanz der Get-XpConnectors und Set-XpConnectors Funktionen für einzelne Konnektoren zu verbessern. Beispiele: $x = Get-XpConnectors "ConnectorName" Set-XpConnectors $x  EN Patch to improve the performance of the Get-XpConnectors and Set-XpConnectors functions for individual connectors. Examples: $x = Get-XpConnectors “ConnectorName” Set-XpConnectors $x </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-07-22_Powershell_connector_function_performance_xphone_9.0.311.exe</downloadlink>
   </patch>
   <patch>
@@ -71,7 +71,7 @@
     <files>
       <file>FsSipPbx.dll</file>
     </files>
-    <description>DE Voraussetzung:  - 2024-07-08 Telefonie Sammelpatch  Dieser Patch behebt das Problem, dass wenn der Partner vor einem Blind Transfer ins Halten gelegt wurde, dieser auch nach dem Blind Transfer immer noch die Halten-Musik hÃ¶rt.  EN Prerequisite:  - 2024-07-08 Telefonie Sammelpatch   This patch fixes the problem that if the partner was put on hold before a blind transfer, the partner still hears the hold music after the blind transfer. </description>
+    <description>DE Voraussetzung:  - 2024-07-08 Telefonie Sammelpatch  Dieser Patch behebt das Problem, dass wenn der Partner vor einem Blind Transfer ins Halten gelegt wurde, dieser auch nach dem Blind Transfer immer noch die Halten-Musik hört.  EN Prerequisite:  - 2024-07-08 Telefonie Sammelpatch   This patch fixes the problem that if the partner was put on hold before a blind transfer, the partner still hears the hold music after the blind transfer. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-08-02_Softphone_-_MoH_after_blind_transfer_-_fixed_xphone_9.0.311.exe</downloadlink>
   </patch>
   <patch>
@@ -80,7 +80,7 @@
     <files>
       <file>TelephonyConfig.dll</file>
     </files>
-    <description>DE Ãber den Sonderparameter beim Pbx "CreateLineSort" mit entsprechemdem "Sortstring" kann die Pbx-Reihenfolge bei Leitungserzeugung Ã¼berschrieben werden. FÃ¼r Details bitte an den Support werden.   EN The Pbx sequence can be overwritten during line creation using the special parameter for Pbx âCreateLineSortâ with the corresponding âSortstringâ. Please contact support for details.  </description>
+    <description>DE Über den Sonderparameter beim Pbx "CreateLineSort" mit entsprechemdem "Sortstring" kann die Pbx-Reihenfolge bei Leitungserzeugung überschrieben werden. Für Details bitte an den Support werden.   EN The Pbx sequence can be overwritten during line creation using the special parameter for Pbx “CreateLineSort” with the corresponding “Sortstring”. Please contact support for details.  </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-08-28_Konnektor_-_Pbx-Reihenfolge_bei_Leitungserzeugung_xphone_9.0.311.exe</downloadlink>
   </patch>
   <patch>
@@ -91,7 +91,7 @@
       <file>DirectoryConnectorSrvExport.dll</file>
       <file>DirectoryConnectorTXT.dll</file>
     </files>
-    <description>DE Folgende neue Einstellungen fÃ¼r Konnektoren in atlas.xml  &lt;Connectors&gt;      &lt;schedule enabled="true" startDelay="00:10:00" /&gt; &lt;/Connectors&gt;  enabled: Deaktiviert die Zeitsteuerung fÃ¼r alle Konnektoren. Die Ãnderung in atlas.xml kann im laufenden Betrieb erfolgen.  startDelay: VerzÃ¶gert die Zeitsteuerung fÃ¼r Konnektoren nach einem Serverneustart um die angegebenen Zeit (Default 10 Minuten). Ãnderung nicht im laufenden Betrieb mÃ¶glich.  EN The following new settings for connectors in atlas.xml  &lt;Connectors&gt;      &lt;schedule enabled="true" startDelay="00:10:00" /&gt; &lt;/Connectors&gt;  enabled: Deactivates the time control for all connectors. The change in atlas.xml can be made during operation.  startDelay: Delays the time control for connectors after a server restart by the specified time (default 10 minutes). Change not possible during operation. </description>
+    <description>DE Folgende neue Einstellungen für Konnektoren in atlas.xml  &lt;Connectors&gt;      &lt;schedule enabled="true" startDelay="00:10:00" /&gt; &lt;/Connectors&gt;  enabled: Deaktiviert die Zeitsteuerung für alle Konnektoren. Die Änderung in atlas.xml kann im laufenden Betrieb erfolgen.  startDelay: Verzögert die Zeitsteuerung für Konnektoren nach einem Serverneustart um die angegebenen Zeit (Default 10 Minuten). Änderung nicht im laufenden Betrieb möglich.  EN The following new settings for connectors in atlas.xml  &lt;Connectors&gt;      &lt;schedule enabled="true" startDelay="00:10:00" /&gt; &lt;/Connectors&gt;  enabled: Deactivates the time control for all connectors. The change in atlas.xml can be made during operation.  startDelay: Delays the time control for connectors after a server restart by the specified time (default 10 minutes). Change not possible during operation. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-08-28_Konnektor_-_Scheduler_Einstellungen_in_atlas.xml_xphone_9.0.311.exe</downloadlink>
   </patch>
   <patch>
@@ -100,7 +100,7 @@
     <files>
       <file>DirectoryConnectorSrvExport.dll</file>
     </files>
-    <description>DE Die Multiline-Konfiguration von Benutzern war nicht mÃ¶glich wenn die Rufnummern-Daten aus dem AD nur Durchwahlen (bzw. nicht im Format E.164) enthalten.  Ist nun parallel die Leitungserzeugung mit "FindFirst" aktiviert und erfolgreich, dann kÃ¶nnen die Durchwahlen aud dem AD mit dem damit verknÃ¼pften Wahlparameter fÃ¼r die Sucher der Leitungen korrekt formatiert werden.    EN Multiline configuration of users was not possible if the phone number data from the AD only contained extensions (or not in E.164 format).  If line generation with âFindFirstâ is now activated and successful in parallel, the extensions from the AD can be correctly formatted with the associated dialing parameters for the line finder.   </description>
+    <description>DE Die Multiline-Konfiguration von Benutzern war nicht möglich wenn die Rufnummern-Daten aus dem AD nur Durchwahlen (bzw. nicht im Format E.164) enthalten.  Ist nun parallel die Leitungserzeugung mit "FindFirst" aktiviert und erfolgreich, dann können die Durchwahlen aud dem AD mit dem damit verknüpften Wahlparameter für die Sucher der Leitungen korrekt formatiert werden.    EN Multiline configuration of users was not possible if the phone number data from the AD only contained extensions (or not in E.164 format).  If line generation with “FindFirst” is now activated and successful in parallel, the extensions from the AD can be correctly formatted with the associated dialing parameters for the line finder.   </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-09-17_Konnektor_-_Multilinesuche_mit_Durchwahl_xphone_9.0.311.exe</downloadlink>
   </patch>
   <patch>
@@ -112,7 +112,7 @@
       <file>TelephonyJournalModule.dll</file>
       <file>TelephonyModule.dll</file>
     </files>
-    <description>DE Optimierungen bezÃ¼glich der Anzeige: - Fehlerhafte Anzeige von Konferenzen (die technisch keine sind) im Zusammenhang mit Innovaphone-Anrufgruppen - JournaleintrÃ¤ge erhalten Kennzeichnung fÃ¼r AnrufÃ¼bernahme  Sonstige: - CN-Ãnderungen von Innovaphone-Usern werden automatisch (ohne Neustart der Leitung) erkannt - Weitere MÃ¶glichkeit fÃ¼r automatische GerÃ¤tekonfiguration Ã¼ber regulÃ¤re AusdrÃ¼cke (Informationen Ã¼ber den Support) - HTTPS-Verbindung Ã¼ber Self-Signed Zertifikate:       Zertifikate in Local Machine/VertrauenswÃ¼rdige Stammzertifizierungsstellen installieren      PBX-Sondereinstellung: INCertificateSearchServer mit Wert &lt;Fingerabdruck der Zertifikates&gt;  EN Optimizations regarding the display: - Incorrect display of conferences (which are technically not conferences) in connection with Innovaphone call groups - Journal entries are marked for call pickup  Other: - CN changes of Innovaphone users are recognized automatically (without restarting the line) - Further option for automatic device configuration via regular expressions (information about support) </description>
+    <description>DE Optimierungen bezüglich der Anzeige: - Fehlerhafte Anzeige von Konferenzen (die technisch keine sind) im Zusammenhang mit Innovaphone-Anrufgruppen - Journaleinträge erhalten Kennzeichnung für Anrufübernahme  Sonstige: - CN-Änderungen von Innovaphone-Usern werden automatisch (ohne Neustart der Leitung) erkannt - Weitere Möglichkeit für automatische Gerätekonfiguration über reguläre Ausdrücke (Informationen über den Support) - HTTPS-Verbindung über Self-Signed Zertifikate:       Zertifikate in Local Machine/Vertrauenswürdige Stammzertifizierungsstellen installieren      PBX-Sondereinstellung: INCertificateSearchServer mit Wert &lt;Fingerabdruck der Zertifikates&gt;  EN Optimizations regarding the display: - Incorrect display of conferences (which are technically not conferences) in connection with Innovaphone call groups - Journal entries are marked for call pickup  Other: - CN changes of Innovaphone users are recognized automatically (without restarting the line) - Further option for automatic device configuration via regular expressions (information about support) </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.311/2024-09-24_Innovaphone_-_Anzeigefehler_xphone_9.0.311.exe</downloadlink>
   </patch>
 </patches>

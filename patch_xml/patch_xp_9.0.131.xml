@@ -69,7 +69,7 @@
     <files>
       <file>AtlasSrvExport.dll</file>
     </files>
-    <description>DE Die Softphone-Clients bekommen vom Server keinen STUN-Server zur VerfÃ¼gung gestellt.  EN The softphone clients are not provided with a STUN server by the server. </description>
+    <description>DE Die Softphone-Clients bekommen vom Server keinen STUN-Server zur Verfügung gestellt.  EN The softphone clients are not provided with a STUN server by the server. </description>
     <downloadlink>https://github.com/C4BCSMORG/Patches/raw/main/V9.0.131/2022-11-30_Softphone_-_STUN-Server_missing_xphone_9.0.131.exe</downloadlink>
   </patch>
 </patches>
